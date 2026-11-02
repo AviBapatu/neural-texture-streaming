@@ -1,0 +1,33 @@
+# Godot import cache and editor state
+godot/.godot/
+*.translation
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Generated run outputs (reproducible from tools/ and sim/)
+dataset/raw/
+dataset/processed/
+dataset/telemetry/
+dataset/streaming/
+dataset/textures/
+dataset/reports/
+
+# Untouched upstream asset repository, kept locally for provenance only
+assets_src/
+
+# Internal phase notes and hand-off material
+docs/phase-*.md
+docs/report-handoff.md
+handoff/
+**/summary.md
+
+# Local scratch and archives
+.commandcode/
+nerual texture streaming.zip
+.DS_Store
