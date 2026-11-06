@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "trajectory_id": "t03_walk_corner",
+  "kind": "walk_corner",
+  "description": "Walk north, then turn left at the intersection and continue east.",
+  "environment_seed": 20260501,
+  "start_position": [
+    0.0,
+    0.2,
+    -14.0
+  ],
+  "start_yaw_degrees": 180.0,
+  "start_pitch_degrees": 0.0,
+  "duration_seconds": 22.0,
+  "segments": [
+    {
+      "mode": "control",
+      "start": 0.0,
+      "end": 9.0,
+      "action": "move_forward",
+      "speed": 6.0,
+      "sprint": false,
+      "yaw_from": 180.0,
+      "yaw_to": 180.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    },
+    {
+      "mode": "control",
+      "start": 9.0,
+      "end": 11.5,
+      "action": "move_forward",
+      "speed": 6.0,
+      "sprint": false,
+      "yaw_from": 180.0,
+      "yaw_to": 270.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    },
+    {
+      "mode": "control",
+      "start": 11.5,
+      "end": 22.0,
+      "action": "move_forward",
+      "speed": 6.0,
+      "sprint": false,
+      "yaw_from": 270.0,
+      "yaw_to": 270.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    }
+  ]
+}

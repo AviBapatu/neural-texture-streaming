@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "profile": "full",
+  "environment_seed": 20260501,
+  "duration_scale": 1.0,
+  "trajectory_count": 14,
+  "total_duration_seconds": 284.0,
+  "trajectories": [
+    {
+      "trajectory_id": "t01_walk_straight",
+      "kind": "walk_straight",
+      "description": "Walk north along the central avenue from the spawn point.",
+      "file": "dataset/trajectories/full/t01_walk_straight.json",
+      "duration_seconds": 18.0,
+      "segment_count": 1,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t02_sprint_straight",
+      "kind": "sprint_straight",
+      "description": "Sprint north along the central avenue using the sprint action.",
+      "file": "dataset/trajectories/full/t02_sprint_straight.json",
+      "duration_seconds": 16.0,
+      "segment_count": 1,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t03_walk_corner",
+      "kind": "walk_corner",
+      "description": "Walk north, then turn left at the intersection and continue east.",
+      "file": "dataset/trajectories/full/t03_walk_corner.json",
+      "duration_seconds": 22.0,
+      "segment_count": 3,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t04_sprint_corner",
+      "kind": "sprint_corner",
+      "description": "Sprint north, turn right at the intersection at speed, continue east.",
+      "file": "dataset/trajectories/full/t04_sprint_corner.json",
+      "duration_seconds": 20.0,
+      "segment_count": 3,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t05_turn_left_right",
+      "kind": "turn_left_right",
+      "description": "Walk forward while sweeping the camera left and right across the street.",
+      "file": "dataset/trajectories/full/t05_turn_left_right.json",
+      "duration_seconds": 24.0,
+      "segment_count": 4,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t06_look_around",
+      "kind": "look_around",
+      "description": "Stand still at the spawn point and pan a full 360 degrees.",
+      "file": "dataset/trajectories/full/t06_look_around.json",
+      "duration_seconds": 20.0,
+      "segment_count": 4,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t07_stop_start",
+      "kind": "stop_start",
+      "description": "Walk in bursts: forward, stop, forward, stop, forward.",
+      "file": "dataset/trajectories/full/t07_stop_start.json",
+      "duration_seconds": 22.0,
+      "segment_count": 5,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t08_forward_reverse",
+      "kind": "forward_reverse",
+      "description": "Walk forward, stop, reverse back down the avenue, then forward again.",
+      "file": "dataset/trajectories/full/t08_forward_reverse.json",
+      "duration_seconds": 20.0,
+      "segment_count": 5,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t09_approach_building",
+      "kind": "approach_building",
+      "description": "Walk directly at s20260501_bld_405463ee and stop just in front of it.",
+      "file": "dataset/trajectories/full/t09_approach_building.json",
+      "duration_seconds": 18.0,
+      "segment_count": 2,
+      "modes": [
+        "control",
+        "waypoint"
+      ]
+    },
+    {
+      "trajectory_id": "t10_street_then_plaza",
+      "kind": "street_then_plaza",
+      "description": "Walk up a narrow street lined with buildings, double back, then turn west out of the street into an open plaza.",
+      "file": "dataset/trajectories/full/t10_street_then_plaza.json",
+      "duration_seconds": 28.0,
+      "segment_count": 3,
+      "modes": [
+        "waypoint"
+      ]
+    },
+    {
+      "trajectory_id": "t11_slow_walk_down",
+      "kind": "walk_straight",
+      "description": "Slow walk with the camera angled down at the road surface.",
+      "file": "dataset/trajectories/full/t11_slow_walk_down.json",
+      "duration_seconds": 18.0,
+      "segment_count": 1,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t12_sprint_weave",
+      "kind": "sprint_corner",
+      "description": "Sprint along the avenue while weaving the camera from side to side.",
+      "file": "dataset/trajectories/full/t12_sprint_weave.json",
+      "duration_seconds": 20.0,
+      "segment_count": 4,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t13_approach_prop",
+      "kind": "approach_prop",
+      "description": "Walk up to s20260501_prp_7b7c0cc7 and inspect it from close range.",
+      "file": "dataset/trajectories/full/t13_approach_prop.json",
+      "duration_seconds": 16.0,
+      "segment_count": 2,
+      "modes": [
+        "control",
+        "waypoint"
+      ]
+    },
+    {
+      "trajectory_id": "t14_plaza_look",
+      "kind": "look_around",
+      "description": "Walk into an open plaza and pan around it from the middle.",
+      "file": "dataset/trajectories/full/t14_plaza_look.json",
+      "duration_seconds": 22.0,
+      "segment_count": 3,
+      "modes": [
+        "control",
+        "waypoint"
+      ]
+    }
+  ]
+}

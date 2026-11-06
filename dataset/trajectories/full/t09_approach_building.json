@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "trajectory_id": "t09_approach_building",
+  "kind": "approach_building",
+  "description": "Walk directly at s20260501_bld_405463ee and stop just in front of it.",
+  "environment_seed": 20260501,
+  "start_position": [
+    -4.147,
+    0.2,
+    -24.913
+  ],
+  "start_yaw_degrees": 180.0,
+  "start_pitch_degrees": 0.0,
+  "duration_seconds": 18.0,
+  "segments": [
+    {
+      "mode": "waypoint",
+      "start": 0.0,
+      "end": 14.0,
+      "action": "move_forward",
+      "speed": 6.0,
+      "sprint": false,
+      "target": [
+        -4.147,
+        0.2,
+        -10.913
+      ],
+      "arrive_radius": 2.0,
+      "turn_rate_degrees_per_second": 150.0,
+      "pitch": 2.0
+    },
+    {
+      "mode": "control",
+      "start": 14.0,
+      "end": 18.0,
+      "action": "none",
+      "speed": 0.0,
+      "sprint": false,
+      "yaw_from": 0.0,
+      "yaw_to": 0.0,
+      "pitch_from": 2.0,
+      "pitch_to": -6.0
+    }
+  ]
+}

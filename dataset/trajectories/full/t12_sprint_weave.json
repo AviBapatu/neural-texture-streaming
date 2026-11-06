@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "trajectory_id": "t12_sprint_weave",
+  "kind": "sprint_corner",
+  "description": "Sprint along the avenue while weaving the camera from side to side.",
+  "environment_seed": 20260501,
+  "start_position": [
+    0.0,
+    0.2,
+    -36.0
+  ],
+  "start_yaw_degrees": 150.0,
+  "start_pitch_degrees": 0.0,
+  "duration_seconds": 20.0,
+  "segments": [
+    {
+      "mode": "control",
+      "start": 0.0,
+      "end": 5.0,
+      "action": "move_forward",
+      "speed": 6.0,
+      "sprint": true,
+      "yaw_from": 150.0,
+      "yaw_to": 210.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    },
+    {
+      "mode": "control",
+      "start": 5.0,
+      "end": 10.0,
+      "action": "move_forward",
+      "speed": 6.0,
+      "sprint": true,
+      "yaw_from": 210.0,
+      "yaw_to": 150.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    },
+    {
+      "mode": "control",
+      "start": 10.0,
+      "end": 15.0,
+      "action": "move_forward",
+      "speed": 6.0,
+      "sprint": true,
+      "yaw_from": 150.0,
+      "yaw_to": 210.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    },
+    {
+      "mode": "control",
+      "start": 15.0,
+      "end": 20.0,
+      "action": "move_forward",
+      "speed": 6.0,
+      "sprint": true,
+      "yaw_from": 210.0,
+      "yaw_to": 180.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    }
+  ]
+}

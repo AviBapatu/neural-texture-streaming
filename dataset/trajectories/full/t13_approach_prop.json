@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "trajectory_id": "t13_approach_prop",
+  "kind": "approach_prop",
+  "description": "Walk up to s20260501_prp_7b7c0cc7 and inspect it from close range.",
+  "environment_seed": 20260501,
+  "start_position": [
+    -32.312,
+    0.2,
+    -20.359
+  ],
+  "start_yaw_degrees": 270.0,
+  "start_pitch_degrees": 0.0,
+  "duration_seconds": 16.0,
+  "segments": [
+    {
+      "mode": "waypoint",
+      "start": 0.0,
+      "end": 12.0,
+      "action": "move_forward",
+      "speed": 3.0,
+      "sprint": false,
+      "target": [
+        -23.312,
+        0.2,
+        -20.359
+      ],
+      "arrive_radius": 1.4,
+      "turn_rate_degrees_per_second": 150.0,
+      "pitch": -4.0
+    },
+    {
+      "mode": "control",
+      "start": 12.0,
+      "end": 16.0,
+      "action": "none",
+      "speed": 0.0,
+      "sprint": false,
+      "yaw_from": 0.0,
+      "yaw_to": 0.0,
+      "pitch_from": -4.0,
+      "pitch_to": 8.0
+    }
+  ]
+}

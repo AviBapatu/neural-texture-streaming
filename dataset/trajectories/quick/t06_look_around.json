@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "trajectory_id": "t06_look_around",
+  "kind": "look_around",
+  "description": "Stand still at the spawn point and pan a full 360 degrees.",
+  "environment_seed": 20260501,
+  "start_position": [
+    0.0,
+    0.2,
+    -34.0
+  ],
+  "start_yaw_degrees": 180.0,
+  "start_pitch_degrees": 0.0,
+  "duration_seconds": 8.0,
+  "segments": [
+    {
+      "mode": "control",
+      "start": 0.0,
+      "end": 2.0,
+      "action": "none",
+      "speed": 0.0,
+      "sprint": false,
+      "yaw_from": 180.0,
+      "yaw_to": 270.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    },
+    {
+      "mode": "control",
+      "start": 2.0,
+      "end": 4.0,
+      "action": "none",
+      "speed": 0.0,
+      "sprint": false,
+      "yaw_from": 270.0,
+      "yaw_to": 0.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    },
+    {
+      "mode": "control",
+      "start": 4.0,
+      "end": 6.0,
+      "action": "none",
+      "speed": 0.0,
+      "sprint": false,
+      "yaw_from": 0.0,
+      "yaw_to": 90.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    },
+    {
+      "mode": "control",
+      "start": 6.0,
+      "end": 8.0,
+      "action": "none",
+      "speed": 0.0,
+      "sprint": false,
+      "yaw_from": 90.0,
+      "yaw_to": 180.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    }
+  ]
+}

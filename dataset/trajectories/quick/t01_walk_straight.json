@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "trajectory_id": "t01_walk_straight",
+  "kind": "walk_straight",
+  "description": "Walk north along the central avenue from the spawn point.",
+  "environment_seed": 20260501,
+  "start_position": [
+    0.0,
+    0.2,
+    -34.0
+  ],
+  "start_yaw_degrees": 180.0,
+  "start_pitch_degrees": 0.0,
+  "duration_seconds": 7.2,
+  "segments": [
+    {
+      "mode": "control",
+      "start": 0.0,
+      "end": 7.2,
+      "action": "move_forward",
+      "speed": 6.0,
+      "sprint": false,
+      "yaw_from": 180.0,
+      "yaw_to": 180.0,
+      "pitch_from": 0.0,
+      "pitch_to": 0.0
+    }
+  ]
+}

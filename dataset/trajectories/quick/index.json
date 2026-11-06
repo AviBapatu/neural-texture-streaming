@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "profile": "quick",
+  "environment_seed": 20260501,
+  "duration_scale": 0.4,
+  "trajectory_count": 3,
+  "total_duration_seconds": 22.4,
+  "trajectories": [
+    {
+      "trajectory_id": "t01_walk_straight",
+      "kind": "walk_straight",
+      "description": "Walk north along the central avenue from the spawn point.",
+      "file": "dataset/trajectories/quick/t01_walk_straight.json",
+      "duration_seconds": 7.2,
+      "segment_count": 1,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t06_look_around",
+      "kind": "look_around",
+      "description": "Stand still at the spawn point and pan a full 360 degrees.",
+      "file": "dataset/trajectories/quick/t06_look_around.json",
+      "duration_seconds": 8.0,
+      "segment_count": 4,
+      "modes": [
+        "control"
+      ]
+    },
+    {
+      "trajectory_id": "t09_approach_building",
+      "kind": "approach_building",
+      "description": "Walk directly at s20260501_bld_405463ee and stop just in front of it.",
+      "file": "dataset/trajectories/quick/t09_approach_building.json",
+      "duration_seconds": 7.2,
+      "segment_count": 2,
+      "modes": [
+        "control",
+        "waypoint"
+      ]
+    }
+  ]
+}
