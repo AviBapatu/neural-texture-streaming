@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "environment_seed": 20260501,
+  "source_variant_manifest": "dataset/textures/manifest.json",
+  "texture_count": 17,
+  "textures_with_variants": 7,
+  "note": "available_resolutions is the union of the original resolution and the generated variants",
+  "textures": {
+    "ambientcg/Asphalt021_Color": {
+      "texture_id": "ambientcg/Asphalt021_Color",
+      "kind": "pbr_albedo",
+      "source_path": "godot/assets/textures/ground/Asphalt021/Asphalt021_2K-JPG_Color.jpg",
+      "original_resolution": [
+        2048,
+        2048
+      ],
+      "available_resolutions": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "variant_paths": {
+        "256": "dataset/textures/variants/Asphalt021/Asphalt021_2K-JPG_Color_256.jpg",
+        "512": "dataset/textures/variants/Asphalt021/Asphalt021_2K-JPG_Color_512.jpg",
+        "1024": "dataset/textures/variants/Asphalt021/Asphalt021_2K-JPG_Color_1024.jpg"
+      },
+      "has_variants": true,
+      "max_resolution": 2048
+    },
+    "ambientcg/Bricks066_Color": {
+      "texture_id": "ambientcg/Bricks066_Color",
+      "kind": "pbr_albedo",
+      "source_path": "godot/assets/textures/ground/Bricks066/Bricks066_2K-JPG_Color.jpg",
+      "original_resolution": [
+        2048,
+        2048
+      ],
+      "available_resolutions": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "variant_paths": {
+        "256": "dataset/textures/variants/Bricks066/Bricks066_2K-JPG_Color_256.jpg",
+        "512": "dataset/textures/variants/Bricks066/Bricks066_2K-JPG_Color_512.jpg",
+        "1024": "dataset/textures/variants/Bricks066/Bricks066_2K-JPG_Color_1024.jpg"
+      },
+      "has_variants": true,
+      "max_resolution": 2048
+    },
+    "ambientcg/Concrete012_Color": {
+      "texture_id": "ambientcg/Concrete012_Color",
+      "kind": "pbr_albedo",
+      "source_path": "godot/assets/textures/ground/Concrete012/Concrete012_2K-JPG_Color.jpg",
+      "original_resolution": [
+        2048,
+        2048
+      ],
+      "available_resolutions": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "variant_paths": {
+        "256": "dataset/textures/variants/Concrete012/Concrete012_2K-JPG_Color_256.jpg",
+        "512": "dataset/textures/variants/Concrete012/Concrete012_2K-JPG_Color_512.jpg",
+        "1024": "dataset/textures/variants/Concrete012/Concrete012_2K-JPG_Color_1024.jpg"
+      },
+      "has_variants": true,
+      "max_resolution": 2048
+    },
+    "ambientcg/Grass004_Color": {
+      "texture_id": "ambientcg/Grass004_Color",
+      "kind": "pbr_albedo",
+      "source_path": "godot/assets/textures/ground/Grass004/Grass004_2K-JPG_Color.jpg",
+      "original_resolution": [
+        2048,
+        2048
+      ],
+      "available_resolutions": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "variant_paths": {
+        "256": "dataset/textures/variants/Grass004/Grass004_2K-JPG_Color_256.jpg",
+        "512": "dataset/textures/variants/Grass004/Grass004_2K-JPG_Color_512.jpg",
+        "1024": "dataset/textures/variants/Grass004/Grass004_2K-JPG_Color_1024.jpg"
+      },
+      "has_variants": true,
+      "max_resolution": 2048
+    },
+    "ambientcg/Ground037_Color": {
+      "texture_id": "ambientcg/Ground037_Color",
+      "kind": "pbr_albedo",
+      "source_path": "godot/assets/textures/ground/Ground037/Ground037_2K-JPG_Color.jpg",
+      "original_resolution": [
+        2048,
+        2048
+      ],
+      "available_resolutions": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "variant_paths": {
+        "256": "dataset/textures/variants/Ground037/Ground037_2K-JPG_Color_256.jpg",
+        "512": "dataset/textures/variants/Ground037/Ground037_2K-JPG_Color_512.jpg",
+        "1024": "dataset/textures/variants/Ground037/Ground037_2K-JPG_Color_1024.jpg"
+      },
+      "has_variants": true,
+      "max_resolution": 2048
+    },
+    "ambientcg/Metal063_Color": {
+      "texture_id": "ambientcg/Metal063_Color",
+      "kind": "pbr_albedo",
+      "source_path": "godot/assets/textures/ground/Metal063/Metal063_2K-JPG_Color.jpg",
+      "original_resolution": [
+        2048,
+        2048
+      ],
+      "available_resolutions": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "variant_paths": {
+        "256": "dataset/textures/variants/Metal063/Metal063_2K-JPG_Color_256.jpg",
+        "512": "dataset/textures/variants/Metal063/Metal063_2K-JPG_Color_512.jpg",
+        "1024": "dataset/textures/variants/Metal063/Metal063_2K-JPG_Color_1024.jpg"
+      },
+      "has_variants": true,
+      "max_resolution": 2048
+    },
+    "ambientcg/Road001_Color": {
+      "texture_id": "ambientcg/Road001_Color",
+      "kind": "pbr_albedo",
+      "source_path": "godot/assets/textures/ground/Road001/Road001_2K-JPG_Color.jpg",
+      "original_resolution": [
+        2048,
+        2048
+      ],
+      "available_resolutions": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "variant_paths": {
+        "256": "dataset/textures/variants/Road001/Road001_2K-JPG_Color_256.jpg",
+        "512": "dataset/textures/variants/Road001/Road001_2K-JPG_Color_512.jpg",
+        "1024": "dataset/textures/variants/Road001/Road001_2K-JPG_Color_1024.jpg"
+      },
+      "has_variants": true,
+      "max_resolution": 2048
+    },
+    "kenney/city_roads_colormap": {
+      "texture_id": "kenney/city_roads_colormap",
+      "kind": "atlas",
+      "source_path": "godot/assets/models/kenney_city_roads/Textures/colormap.png",
+      "original_resolution": [
+        512,
+        512
+      ],
+      "available_resolutions": [
+        512
+      ],
+      "variant_paths": {},
+      "has_variants": false,
+      "max_resolution": 512
+    },
+    "kenney/city_suburban_colormap": {
+      "texture_id": "kenney/city_suburban_colormap",
+      "kind": "atlas",
+      "source_path": "godot/assets/models/kenney_city_suburban/Textures/colormap.png",
+      "original_resolution": [
+        512,
+        512
+      ],
+      "available_resolutions": [
+        512
+      ],
+      "variant_paths": {},
+      "has_variants": false,
+      "max_resolution": 512
+    },
+    "kenney/modular_buildings_colormap": {
+      "texture_id": "kenney/modular_buildings_colormap",
+      "kind": "atlas",
+      "source_path": "godot/assets/models/kenney_modular_buildings/Textures/colormap.png",
+      "original_resolution": [
+        512,
+        512
+      ],
+      "available_resolutions": [
+        512
+      ],
+      "variant_paths": {},
+      "has_variants": false,
+      "max_resolution": 512
+    },
+    "quaternius/Bush_Leaves_TwistedTree_C": {
+      "texture_id": "quaternius/Bush_Leaves_TwistedTree_C",
+      "kind": "model_texture",
+      "source_path": "godot/assets/models/vegetation/Bush_Leaves_TwistedTree_C.png",
+      "original_resolution": [
+        1024,
+        1024
+      ],
+      "available_resolutions": [
+        1024
+      ],
+      "variant_paths": {},
+      "has_variants": false,
+      "max_resolution": 1024
+    },
+    "quaternius/Fern_Leaves": {
+      "texture_id": "quaternius/Fern_Leaves",
+      "kind": "model_texture",
+      "source_path": "godot/assets/models/vegetation/Fern_Leaves.png",
+      "original_resolution": [
+        1024,
+        1024
+      ],
+      "available_resolutions": [
+        1024
+      ],
+      "variant_paths": {},
+      "has_variants": false,
+      "max_resolution": 1024
+    },
+    "quaternius/Grass_Grass": {
+      "texture_id": "quaternius/Grass_Grass",
+      "kind": "model_texture",
+      "source_path": "godot/assets/models/vegetation/Grass_Grass.png",
+      "original_resolution": [
+        1024,
+        1024
+      ],
+      "available_resolutions": [
+        1024
+      ],
+      "variant_paths": {},
+      "has_variants": false,
+      "max_resolution": 1024
+    },
+    "quaternius/Pebble Round_PathRocks_Diffuse": {
+      "texture_id": "quaternius/Pebble Round_PathRocks_Diffuse",
+      "kind": "model_texture",
+      "source_path": "godot/assets/models/vegetation/Pebble Round_PathRocks_Diffuse.png",
+      "original_resolution": [
+        1024,
+        1024
+      ],
+      "available_resolutions": [
+        1024
+      ],
+      "variant_paths": {},
+      "has_variants": false,
+      "max_resolution": 1024
+    },
+    "quaternius/Pine_Bark_NormalTree": {
+      "texture_id": "quaternius/Pine_Bark_NormalTree",
+      "kind": "model_texture",
+      "source_path": "godot/assets/models/vegetation/Pine_Bark_NormalTree.png",
+      "original_resolution": [
+        1024,
+        1024
+      ],
+      "available_resolutions": [
+        1024
+      ],
+      "variant_paths": {},
+      "has_variants": false,
+      "max_resolution": 1024
+    },
+    "quaternius/Pine_Leaf_Pine_C": {
+      "texture_id": "quaternius/Pine_Leaf_Pine_C",
+      "kind": "model_texture",
+      "source_path": "godot/assets/models/vegetation/Pine_Leaf_Pine_C.png",
+      "original_resolution": [
+        1024,
+        1024
+      ],
+      "available_resolutions": [
+        1024
+      ],
+      "variant_paths": {},
+      "has_variants": false,
+      "max_resolution": 1024
+    },
+    "quaternius/Rock Medium_Rocks_Diffuse": {
+      "texture_id": "quaternius/Rock Medium_Rocks_Diffuse",
+      "kind": "model_texture",
+      "source_path": "godot/assets/models/vegetation/Rock Medium_Rocks_Diffuse.png",
+      "original_resolution": [
+        1024,
+        1024
+      ],
+      "available_resolutions": [
+        1024
+      ],
+      "variant_paths": {},
+      "has_variants": false,
+      "max_resolution": 1024
+    }
+  }
+}
