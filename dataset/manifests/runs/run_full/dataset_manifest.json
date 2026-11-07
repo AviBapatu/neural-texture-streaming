@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "run_id": "run_full",
+  "generated_at": "2026-11-05T21:11:09+00:00",
+  "environment_seed": 20260501,
+  "horizons_seconds": [
+    0.5,
+    1.0
+  ],
+  "candidate_distance_m": 25.0,
+  "trajectory_count": 14,
+  "samples": 2840,
+  "label_rows": 188469,
+  "become_visible_within_0_5s": 2221,
+  "csv_export": false,
+  "raw_directory": "dataset/raw/run_full",
+  "processed_directory": "dataset/processed/run_full",
+  "join_key": [
+    "trajectory_id",
+    "sample_index"
+  ],
+  "label_semantics": "labels cover the window [now, now + horizon]; an object that is not visible now but visible in the window has visible_in_* true and first_visible_time_* > 0",
+  "required_resolution_is_estimate": true
+}

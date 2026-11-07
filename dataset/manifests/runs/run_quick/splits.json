@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "profile": "quick",
+  "seed": 20261105,
+  "rule": "trajectory-level split; every sample of a trajectory belongs to exactly one split; test trajectories are never used for training or model selection",
+  "source_index": "dataset/trajectories/quick/index.json",
+  "environment_seed": 20260501,
+  "trajectory_count": 3,
+  "counts": {
+    "train": 1,
+    "validation": 1,
+    "test": 1
+  },
+  "splits": {
+    "train": [
+      {
+        "trajectory_id": "t06_look_around",
+        "kind": "look_around",
+        "duration_seconds": 8.0,
+        "file": "dataset/trajectories/quick/t06_look_around.json"
+      }
+    ],
+    "validation": [
+      {
+        "trajectory_id": "t09_approach_building",
+        "kind": "approach_building",
+        "duration_seconds": 7.2,
+        "file": "dataset/trajectories/quick/t09_approach_building.json"
+      }
+    ],
+    "test": [
+      {
+        "trajectory_id": "t01_walk_straight",
+        "kind": "walk_straight",
+        "duration_seconds": 7.2,
+        "file": "dataset/trajectories/quick/t01_walk_straight.json"
+      }
+    ]
+  }
+}
