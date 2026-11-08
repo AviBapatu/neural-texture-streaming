@@ -1,0 +1,35 @@
+{
+  "environment_seed": 20260501,
+  "legacy_visible_array": true,
+  "max_visible_distance": 75.0,
+  "measure_frames": 300,
+  "observations": 6010,
+  "occlusion": {
+    "enabled": true,
+    "max_rays": 4,
+    "mean_occlusion_ms_per_sample": 0.0,
+    "mean_visibility_ms_per_sample": 1.5883,
+    "min_coverage": 0.0005,
+    "occlusion_share_percent": 0.0,
+    "occlusion_time_ms": 0.0,
+    "rays_cast": 0,
+    "reasons": {
+      "disabled": 4070
+    },
+    "values": {
+      "false": 0,
+      "null": 4070,
+      "true": 0
+    },
+    "visibility_time_ms": 36.532
+  },
+  "physics_ticks_per_second": 60,
+  "purpose": "occlusion overhead benchmark",
+  "sample_interval_ticks": 6,
+  "sample_mode": "physics",
+  "samples": 23,
+  "samples_per_second_effective": 10.0,
+  "schema_version": 2,
+  "session_stem": "benchmark_occlusion_off",
+  "warmup_frames": 40
+}

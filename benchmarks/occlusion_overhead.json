@@ -1,0 +1,32 @@
+{
+  "mean_overhead_ms_per_sample": 1.1639,
+  "measure_frames": 300,
+  "occlusion_off": {
+    "label": "occlusion disabled",
+    "mean_occlusion_ms": 0.0,
+    "mean_rays_per_sample": 0.0,
+    "mean_visibility_ms": 1.5883,
+    "occlusion_enabled": false,
+    "rays_cast": 0,
+    "samples": 23,
+    "total_occlusion_ms": 0.0,
+    "total_visibility_ms": 36.532
+  },
+  "occlusion_on": {
+    "label": "occlusion enabled",
+    "mean_occlusion_ms": 1.0293,
+    "mean_rays_per_sample": 310.78,
+    "mean_visibility_ms": 2.7522,
+    "occlusion_enabled": true,
+    "rays_cast": 7148,
+    "samples": 23,
+    "total_occlusion_ms": 23.673,
+    "total_visibility_ms": 63.301
+  },
+  "overhead_percent_of_visibility": 73.3,
+  "physics_ticks_per_second": 60,
+  "sample_budget_ms": 100.0,
+  "sample_interval_ticks": 6,
+  "schema_version": 1,
+  "warmup_frames": 40
+}
