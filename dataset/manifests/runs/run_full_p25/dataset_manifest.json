@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "run_id": "run_full_p25",
+  "generated_at": "2026-11-05T21:26:26+00:00",
+  "environment_seed": 20260501,
+  "horizons_seconds": [
+    0.5,
+    1.0
+  ],
+  "candidate_distance_m": 25.0,
+  "trajectory_count": 14,
+  "samples": 2840,
+  "label_rows": 188469,
+  "resolution_eligible_rows": 30469,
+  "keep_legacy_labels": true,
+  "targets": {
+    "frustum_demand": "will the object's bounding box enter the camera frustum; boolean, fields frustum_visible_in_<h>s",
+    "occlusion_aware_visible_demand": "will the object actually become visible once occlusion is accounted for; TRI-STATE, fields occlusion_visible_in_<h>s, where null means the occlusion state was unknown and never that the object is invisible"
+  },
+  "resolution_eligibility": {
+    "rule": "an object is eligible only if at least one of its texture identities has generated resolution variants",
+    "visibility_targets_apply_to_all_textures": true,
+    "eligible_rows": 30469,
+    "ineligible_rows": 158000,
+    "field": "resolution_eligible (per row); resolution_variants and variant_texture_ids are present only for eligible rows"
+  },
+  "target_tallies": {
+    "0_5": {
+      "frustum_true": 65968,
+      "frustum_new": 2221,
+      "occlusion_true": 36689,
+      "occlusion_false": 149374,
+      "occlusion_unknown": 2406,
+      "occlusion_new": 1155,
+      "occlusion_disagrees_with_frustum": 26873
+    },
+    "1_0": {
+      "frustum_true": 68167,
+      "frustum_new": 4420,
+      "occlusion_true": 38996,
+      "occlusion_false": 146491,
+      "occlusion_unknown": 2982,
+      "occlusion_new": 2369,
+      "occlusion_disagrees_with_frustum": 26189
+    }
+  },
+  "raw_directory": "dataset/raw/run_full_p25",
+  "processed_directory": "dataset/processed/run_full_p25",
+  "join_key": [
+    "trajectory_id",
+    "sample_index"
+  ],
+  "label_semantics": "labels cover the window [now, now + horizon]; an object that is not visible now but visible in the window has visible_in_* true and first_visible_time_* > 0",
+  "required_resolution_is_estimate": true
+}
