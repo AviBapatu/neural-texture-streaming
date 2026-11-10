@@ -1,0 +1,112 @@
+# Phase 3b model configuration.
+#
+# One shared MLP with four output logits (2 targets x 2 horizons). The architecture
+# is deliberately plain dense layers so it can be reimplemented in GDScript for the
+# Phase 4 runtime port.
+
+version: 1
+
+# Reused, not duplicated: the feature pipeline, the splits, the heuristic and the
+# metric definitions all come from the Phase 3a modules.
+feature_config: training/configs/features_v1.yaml
+dataset: dataset/processed/run_full_p25
+output: training/experiments/phase3b
+
+model:
+  # Plain dense stack: Linear -> ReLU -> Dropout, repeated. Two hidden layers,
+  # at most 128 units, no convolutions, no residuals, no attention.
+  hidden: [128, 64]
+  dropout: 0.1
+  activation: relu
+
+targets:
+  # Output order is fixed and shared by every variant. It is recorded in the
+  # exported weight bundle so the GDScript port cannot silently reorder it.
+  outputs:
+    - {name: frustum_0_5, target: frustum, horizon: 0.5}
+    - {name: frustum_1_0, target: frustum, horizon: 1.0}
+    - {name: occlusion_0_5, target: occlusion, horizon: 0.5}
+    - {name: occlusion_1_0, target: occlusion, horizon: 1.0}
+
+primary_subset:
+  # "Not currently visible" unified across both targets: the frustum primary is
+  # `not frustum_visible`, the occlusion primary is `not confirmed visible`. Their
+  # union is `not (frustum_visible and occlusion_visible)` and that is the row set
+  # the shared model is trained on. Per-target evaluation still uses each target's
+  # own primary mask, via evaluate.target_arrays.
+  definition: "not (frustum_visible and occlusion_state == visible)"
+
+masking:
+  # Snap-yaw rows are generator artefacts: dropped from the training loss and from
+  # headline evaluation, reported separately.
+  drop_snap_yaw_from_training: true
+  drop_snap_yaw_from_headline: true
+  # Position jumps are legitimate 20-120 m/s sprint motion, not defects.
+  mask_position_jumps: false
+  # Unknown occlusion labels are masked out of the occlusion outputs only.
+  mask_unknown_occlusion: true
+
+training:
+  seeds: [1, 2, 3]
+  max_epochs: 60
+  batch_size: 8192
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  # Early stopping on the fold's validation trajectories; patience in epochs.
+  early_stopping_patience: 10
+  min_epochs: 3
+  # Rebalance each output by n_negative / n_positive, computed on training rows
+  # only and clipped to keep a rare target from dominating.
+  pos_weight: balanced
+  pos_weight_max: 20.0
+  device: cpu
+  # Results are deterministic for a fixed thread count. Measured on this machine:
+  # 1 thread 11.9 ms/step, 4 threads 8.0 ms/step, 12 threads 99.0 ms/step. The model
+  # is small enough that oversubscription dominates, so 4 is the useful setting.
+  threads: 4
+
+variants:
+  a:
+    label: "MLP on features_v1"
+    model_class: mlp
+    history_k: 4
+    heuristic_input: false
+  a_k0:
+    label: "MLP on features_v1 with history K=0 (ablation)"
+    model_class: mlp
+    history_k: 0
+    heuristic_input: false
+  b:
+    label: "MLP on features_v1 + frozen heuristic score"
+    model_class: mlp
+    history_k: 4
+    heuristic_input: true
+  c:
+    label: "HistGradientBoosting on the features of A (model-class check)"
+    model_class: sklearn_histgb
+    history_k: 4
+    heuristic_input: false
+    sklearn:
+      max_iter: 300
+      learning_rate: 0.1
+      max_leaf_nodes: 31
+      early_stopping: true
+      validation_fraction: 0.15
+      n_iter_no_change: 15
+
+heuristic:
+  # Frozen Phase 3a parameters are read from the Phase 3a results, never retuned.
+  results: training/experiments/phase3a/results.json
+  target_key: frustum
+  threshold_horizon: 0.5
+
+sidecar:
+  eval_flags: training/experiments/phase3a1/eval_flags.csv
+
+evaluation:
+  recall_at_k: [5, 10]
+  inference_batch: 300
+  inference_repeats: 50
+
+split_v1: dataset/manifests/experimental_split_v1.json
+phase2_5_split: dataset/manifests/runs/run_full_p25/splits.json
