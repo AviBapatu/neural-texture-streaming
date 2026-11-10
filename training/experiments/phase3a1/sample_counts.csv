@@ -1,0 +1,6 @@
+count,meaning
+2840,total samples recorded across all 14 trajectories
+2826,"samples with a predecessor (total - 14); the population for finite differences, so the angular-velocity scan reports 2826"
+2531,samples that emitted at least one candidate row (>=1 object within 25 m); the remainder had no candidate and contributed no label rows
+309,"samples with no candidate within 25 m, mostly sprinting past the road grid"
+188469,"label rows (object x sample pairs), not samples"

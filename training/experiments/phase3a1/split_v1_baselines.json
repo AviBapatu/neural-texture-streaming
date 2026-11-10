@@ -1,0 +1,485 @@
+{
+  "manifest_path": "dataset/manifests/experimental_split_v1.json",
+  "manifest_sha256": "a3cb2243ec890e70c4f1719a8d69ef78f0b3c8370d37c32174559511fa4873c8",
+  "partitions": {
+    "train": [
+      "t02_sprint_straight",
+      "t09_approach_building",
+      "t10_street_then_plaza",
+      "t11_slow_walk_down",
+      "t12_sprint_weave",
+      "t13_approach_prop",
+      "t14_plaza_look"
+    ],
+    "validation": [
+      "t05_turn_left_right",
+      "t07_stop_start",
+      "t08_forward_reverse"
+    ],
+    "test": [
+      "t01_walk_straight",
+      "t03_walk_corner",
+      "t04_sprint_corner",
+      "t06_look_around"
+    ]
+  },
+  "partition_rows": {
+    "train": 91556,
+    "validation": 55552,
+    "test": 41361
+  },
+  "parameters": {
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0
+  },
+  "threshold_deg": -5.0,
+  "retuned": false,
+  "note": "parameters are Phase 3a's, unchanged; the split manifest was written and hashed before this evaluation ran",
+  "test": {
+    "0.5": {
+      "rows": 41361,
+      "primary_rows": 28356,
+      "positives_in_primary": 586,
+      "baselines": {
+        "reactive": {
+          "full": {
+            "n": 41361,
+            "positives": 13591,
+            "positive_rate": 0.32859456976378715,
+            "precision": 0.999923112409657,
+            "recall": 0.9568832315502906,
+            "f1": 0.9779298417114712,
+            "pr_auc": 0.9814674546111855,
+            "tp": 13005,
+            "fp": 1,
+            "tn": 27769,
+            "fn": 586
+          },
+          "primary_subset": {
+            "n": 28356,
+            "positives": 586,
+            "positive_rate": 0.02066582028494851,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "pr_auc": 0.02436482137856691,
+            "tp": 0,
+            "fp": 1,
+            "tn": 27769,
+            "fn": 586
+          },
+          "newly_visible_positives": 586,
+          "recall_at_k": {
+            "5": 0.30650756738925355,
+            "10": 0.4760347250319376,
+            "20": 0.7062717718934646
+          },
+          "recall_at_k_primary": {
+            "5": 0.1640357905982906,
+            "10": 0.30687274241961743,
+            "20": 0.603084776912902
+          },
+          "per_trajectory": {
+            "t01_walk_straight": {
+              "n": 12157,
+              "positives": 3413,
+              "positive_rate": 0.28074360450769104,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "pr_auc": 1.0,
+              "tp": 3413,
+              "fp": 0,
+              "tn": 8744,
+              "fn": 0
+            },
+            "t03_walk_corner": {
+              "n": 10587,
+              "positives": 2679,
+              "positive_rate": 0.25304618872201756,
+              "precision": 0.9996219281663516,
+              "recall": 0.9869354236655469,
+              "f1": 0.9932381667918857,
+              "pr_auc": 0.9917755633534371,
+              "tp": 2644,
+              "fp": 1,
+              "tn": 7907,
+              "fn": 35
+            },
+            "t04_sprint_corner": {
+              "n": 4817,
+              "positives": 1241,
+              "positive_rate": 0.2576292298110857,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "pr_auc": 1.0,
+              "tp": 1241,
+              "fp": 0,
+              "tn": 3576,
+              "fn": 0
+            },
+            "t06_look_around": {
+              "n": 13800,
+              "positives": 6258,
+              "positive_rate": 0.4534782608695652,
+              "precision": 1.0,
+              "recall": 0.9119527005433046,
+              "f1": 0.9539490179690765,
+              "pr_auc": 0.9698041879419507,
+              "tp": 5707,
+              "fp": 0,
+              "tn": 7542,
+              "fn": 551
+            }
+          },
+          "recall_at_5_primary": 0.1640357905982906,
+          "primary_excluding_snap_affected": {
+            "n": 28356,
+            "positives": 586,
+            "positive_rate": 0.02066582028494851,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "pr_auc": 0.02436482137856691,
+            "tp": 0,
+            "fp": 1,
+            "tn": 27769,
+            "fn": 586
+          }
+        },
+        "predictive": {
+          "full": {
+            "n": 41361,
+            "positives": 13591,
+            "positive_rate": 0.32859456976378715,
+            "precision": 0.9955139457772576,
+            "recall": 0.7510852770215584,
+            "f1": 0.8561962675613336,
+            "pr_auc": 0.9586511356373416,
+            "tp": 10208,
+            "fp": 46,
+            "tn": 27724,
+            "fn": 3383
+          },
+          "primary_subset": {
+            "n": 28356,
+            "positives": 586,
+            "positive_rate": 0.02066582028494851,
+            "precision": 0.9004329004329005,
+            "recall": 0.7098976109215017,
+            "f1": 0.7938931297709924,
+            "pr_auc": 0.8691098554034606,
+            "tp": 416,
+            "fp": 46,
+            "tn": 27724,
+            "fn": 170
+          },
+          "newly_visible_positives": 586,
+          "recall_at_k": {
+            "5": 0.279955723584558,
+            "10": 0.44094634752435846,
+            "20": 0.6696545531316808
+          },
+          "recall_at_k_primary": {
+            "5": 0.8667755710724462,
+            "10": 0.9712743564306064,
+            "20": 0.9992559523809524
+          },
+          "per_trajectory": {
+            "t01_walk_straight": {
+              "n": 12157,
+              "positives": 3413,
+              "positive_rate": 0.28074360450769104,
+              "precision": 1.0,
+              "recall": 0.7128625842367419,
+              "f1": 0.8323640095791994,
+              "pr_auc": 0.942800246816576,
+              "tp": 2433,
+              "fp": 0,
+              "tn": 8744,
+              "fn": 980
+            },
+            "t03_walk_corner": {
+              "n": 10587,
+              "positives": 2679,
+              "positive_rate": 0.25304618872201756,
+              "precision": 0.9962904080551139,
+              "recall": 0.7017543859649122,
+              "f1": 0.8234778799824792,
+              "pr_auc": 0.9386426871257195,
+              "tp": 1880,
+              "fp": 7,
+              "tn": 7901,
+              "fn": 799
+            },
+            "t04_sprint_corner": {
+              "n": 4817,
+              "positives": 1241,
+              "positive_rate": 0.2576292298110857,
+              "precision": 1.0,
+              "recall": 0.5366639806607575,
+              "f1": 0.6984792868379655,
+              "pr_auc": 0.8917331901007671,
+              "tp": 666,
+              "fp": 0,
+              "tn": 3576,
+              "fn": 575
+            },
+            "t06_look_around": {
+              "n": 13800,
+              "positives": 6258,
+              "positive_rate": 0.4534782608695652,
+              "precision": 0.9925968109339408,
+              "recall": 0.8355704697986577,
+              "f1": 0.9073399271212909,
+              "pr_auc": 0.9856791686079099,
+              "tp": 5229,
+              "fp": 39,
+              "tn": 7503,
+              "fn": 1029
+            }
+          },
+          "recall_at_5_primary": 0.8667755710724462,
+          "primary_excluding_snap_affected": {
+            "n": 28356,
+            "positives": 586,
+            "positive_rate": 0.02066582028494851,
+            "precision": 0.9004329004329005,
+            "recall": 0.7098976109215017,
+            "f1": 0.7938931297709924,
+            "pr_auc": 0.8691098554034606,
+            "tp": 416,
+            "fp": 46,
+            "tn": 27724,
+            "fn": 170
+          }
+        }
+      }
+    },
+    "1": {
+      "rows": 41361,
+      "primary_rows": 28356,
+      "positives_in_primary": 1151,
+      "baselines": {
+        "reactive": {
+          "full": {
+            "n": 41361,
+            "positives": 14156,
+            "positive_rate": 0.34225478107395857,
+            "precision": 0.999923112409657,
+            "recall": 0.9186917208250919,
+            "f1": 0.957587806494367,
+            "pr_auc": 0.9658224133227223,
+            "tp": 13005,
+            "fp": 1,
+            "tn": 27204,
+            "fn": 1151
+          },
+          "primary_subset": {
+            "n": 28356,
+            "positives": 1151,
+            "positive_rate": 0.0405910565665115,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "pr_auc": 0.04773957881301076,
+            "tp": 0,
+            "fp": 1,
+            "tn": 27204,
+            "fn": 1151
+          },
+          "newly_visible_positives": 1151,
+          "recall_at_k": {
+            "5": 0.2916364811608569,
+            "10": 0.45361400964016224,
+            "20": 0.6811321469416217
+          },
+          "recall_at_k_primary": {
+            "5": 0.17356232597954072,
+            "10": 0.3282904137232795,
+            "20": 0.6106175951726736
+          },
+          "per_trajectory": {
+            "t01_walk_straight": {
+              "n": 12157,
+              "positives": 3413,
+              "positive_rate": 0.28074360450769104,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "pr_auc": 1.0,
+              "tp": 3413,
+              "fp": 0,
+              "tn": 8744,
+              "fn": 0
+            },
+            "t03_walk_corner": {
+              "n": 10587,
+              "positives": 2714,
+              "positive_rate": 0.2563521299707188,
+              "precision": 0.9996219281663516,
+              "recall": 0.974207811348563,
+              "f1": 0.9867512595633514,
+              "pr_auc": 0.983511387932984,
+              "tp": 2644,
+              "fp": 1,
+              "tn": 7872,
+              "fn": 70
+            },
+            "t04_sprint_corner": {
+              "n": 4817,
+              "positives": 1241,
+              "positive_rate": 0.2576292298110857,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "pr_auc": 1.0,
+              "tp": 1241,
+              "fp": 0,
+              "tn": 3576,
+              "fn": 0
+            },
+            "t06_look_around": {
+              "n": 13800,
+              "positives": 6788,
+              "positive_rate": 0.4918840579710145,
+              "precision": 1.0,
+              "recall": 0.8407483794932233,
+              "f1": 0.913485394157663,
+              "pr_auc": 0.9494688247305003,
+              "tp": 5707,
+              "fp": 0,
+              "tn": 7012,
+              "fn": 1081
+            }
+          },
+          "recall_at_5_primary": 0.17356232597954072,
+          "primary_excluding_snap_affected": {
+            "n": 28356,
+            "positives": 1151,
+            "positive_rate": 0.0405910565665115,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "pr_auc": 0.04773957881301076,
+            "tp": 0,
+            "fp": 1,
+            "tn": 27204,
+            "fn": 1151
+          }
+        },
+        "predictive": {
+          "full": {
+            "n": 41361,
+            "positives": 14156,
+            "positive_rate": 0.34225478107395857,
+            "precision": 0.9890122211010203,
+            "recall": 0.6231280022605256,
+            "f1": 0.7645503791982664,
+            "pr_auc": 0.9196852114695009,
+            "tp": 8821,
+            "fp": 98,
+            "tn": 27107,
+            "fn": 5335
+          },
+          "primary_subset": {
+            "n": 28356,
+            "positives": 1151,
+            "positive_rate": 0.0405910565665115,
+            "precision": 0.9022931206380858,
+            "recall": 0.7862728062554301,
+            "f1": 0.840297121634169,
+            "pr_auc": 0.8705001607920202,
+            "tp": 905,
+            "fp": 98,
+            "tn": 27107,
+            "fn": 246
+          },
+          "newly_visible_positives": 1151,
+          "recall_at_k": {
+            "5": 0.25725228406479533,
+            "10": 0.4076743532798143,
+            "20": 0.6277488157205844
+          },
+          "recall_at_k_primary": {
+            "5": 0.7888961117510432,
+            "10": 0.9333840714902477,
+            "20": 0.9830057574812607
+          },
+          "per_trajectory": {
+            "t01_walk_straight": {
+              "n": 12157,
+              "positives": 3413,
+              "positive_rate": 0.28074360450769104,
+              "precision": 1.0,
+              "recall": 0.5423381189569294,
+              "f1": 0.7032674772036475,
+              "pr_auc": 0.8957636848068917,
+              "tp": 1851,
+              "fp": 0,
+              "tn": 8744,
+              "fn": 1562
+            },
+            "t03_walk_corner": {
+              "n": 10587,
+              "positives": 2714,
+              "positive_rate": 0.2563521299707188,
+              "precision": 0.9918809201623816,
+              "recall": 0.5401621223286662,
+              "f1": 0.6994274809160305,
+              "pr_auc": 0.8859862086417356,
+              "tp": 1466,
+              "fp": 12,
+              "tn": 7861,
+              "fn": 1248
+            },
+            "t04_sprint_corner": {
+              "n": 4817,
+              "positives": 1241,
+              "positive_rate": 0.2576292298110857,
+              "precision": 1.0,
+              "recall": 0.29734085414987915,
+              "f1": 0.4583850931677019,
+              "pr_auc": 0.7833878498737011,
+              "tp": 369,
+              "fp": 0,
+              "tn": 3576,
+              "fn": 872
+            },
+            "t06_look_around": {
+              "n": 13800,
+              "positives": 6788,
+              "positive_rate": 0.4918840579710145,
+              "precision": 0.983528059758667,
+              "recall": 0.7564820271066588,
+              "f1": 0.8551919393787992,
+              "pr_auc": 0.9669975269292748,
+              "tp": 5135,
+              "fp": 86,
+              "tn": 6926,
+              "fn": 1653
+            }
+          },
+          "recall_at_5_primary": 0.7888961117510432,
+          "primary_excluding_snap_affected": {
+            "n": 28356,
+            "positives": 1151,
+            "positive_rate": 0.0405910565665115,
+            "precision": 0.9022931206380858,
+            "recall": 0.7862728062554301,
+            "f1": 0.840297121634169,
+            "pr_auc": 0.8705001607920202,
+            "tp": 905,
+            "fp": 98,
+            "tn": 27107,
+            "fn": 246
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+trajectory_id,movement_type,duration_s,samples,samples_with_candidates,label_rows,mean_linear_speed_m_s,max_linear_speed_m_s,mean_angular_speed_deg_s,max_angular_speed_deg_s,frustum_pos_0_5s,frustum_new_0_5s,occlusion_pos_0_5s,occlusion_new_0_5s,occlusion_unknown_0_5s,frustum_pos_1_0s,frustum_new_1_0s,occlusion_pos_1_0s,occlusion_new_1_0s,occlusion_unknown_1_0s
+t01_walk_straight,walk_straight,18.0,180,169,12157,5.972,6.0,0.0,0.0,3413,0,2466,156,167,3413,0,2557,247,224
+t02_sprint_straight,sprint_straight,16.0,160,88,6333,22.542,96.085,0.0,0.0,1850,0,1357,121,110,1850,0,1407,171,119
+t03_walk_corner,walk_corner,22.0,220,208,10587,5.976,6.0,4.091,36.091,2679,35,1897,146,131,2714,70,2003,252,172
+t04_sprint_corner,sprint_corner,20.0,200,70,4817,18.248,84.094,4.5,45.138,1241,0,895,78,76,1241,0,934,117,81
+t05_turn_left_right,turn_left_right,24.0,240,240,18670,4.638,6.0,14.886,30.083,6126,227,2795,470,200,6331,432,3196,871,243
+t06_look_around,look_around,20.0,200,200,13800,0.0,0.0,26.79,54.1,6258,551,3515,320,134,6788,1081,3825,630,169
+t07_stop_start,stop_start,22.0,220,220,18267,4.331,6.0,0.909,2.075,5273,0,3869,173,182,5273,0,3974,278,213
+t08_forward_reverse,forward_reverse,20.0,200,200,18615,5.365,6.0,0.997,4.069,7276,472,4645,471,385,7769,965,5037,863,590
+t09_approach_building,approach_building,18.0,180,180,17689,0.688,6.0,10.433,1800.0,6593,175,3954,178,56,6768,350,4126,350,61
+t10_street_then_plaza,street_then_plaza,28.0,280,280,22018,1.661,6.0,11.151,150.07,7334,367,4009,332,254,7714,747,4319,642,305
+t11_slow_walk_down,walk_straight,18.0,180,180,11309,0.159,3.0,0.0,0.0,4666,0,204,0,183,4666,0,204,0,183
+t12_sprint_weave,sprint_corner,20.0,200,116,8818,24.864,121.593,10.384,12.098,2807,37,1556,344,103,2838,68,1760,548,127
+t13_approach_prop,approach_prop,16.0,160,160,12188,0.49,3.0,6.356,900.003,5616,65,3821,79,226,5681,130,3873,131,241
+t14_plaza_look,look_around,22.0,220,220,13201,0.225,6.0,17.184,802.047,4836,292,1706,87,199,5121,577,1781,162,254

@@ -1,0 +1,621 @@
+{
+  "baseline": "coverage-threshold: required_resolution from CURRENT projected coverage",
+  "coverage_outside_frustum": {
+    "statement": "yes - coverage is recorded for every candidate whether or not it is in the frustum, and is exactly 0.0 for objects outside it, which makes the coverage-threshold map return required_resolution = 0",
+    "rows_outside_frustum": 124722,
+    "max_coverage_outside_frustum": 0.0,
+    "nonzero_coverage_outside_frustum": 0
+  },
+  "per_horizon": {
+    "0.5": {
+      "all_eligible": {
+        "n": 11396,
+        "classes": [
+          0,
+          64,
+          128,
+          256,
+          512,
+          1024
+        ],
+        "classes_with_support": [
+          64,
+          128,
+          256,
+          512,
+          1024
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            135,
+            182,
+            145,
+            20,
+            0
+          ],
+          [
+            0,
+            2434,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3911,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2583,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1732,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            254
+          ]
+        ],
+        "confusion_row_predicted_col_true": true,
+        "per_class": {
+          "0": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "64": {
+            "support": 2569,
+            "precision": 1.0,
+            "recall": 0.947450369793694,
+            "f1": 0.9730161902858285
+          },
+          "128": {
+            "support": 4093,
+            "precision": 1.0,
+            "recall": 0.9555338382604447,
+            "f1": 0.9772613693153424
+          },
+          "256": {
+            "support": 2728,
+            "precision": 1.0,
+            "recall": 0.9468475073313783,
+            "f1": 0.9726981736019583
+          },
+          "512": {
+            "support": 1752,
+            "precision": 1.0,
+            "recall": 0.9885844748858448,
+            "f1": 0.9942594718714122
+          },
+          "1024": {
+            "support": 254,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "macro_f1": 0.9834470410149084,
+        "accuracy": 0.9577044577044577,
+        "under_prediction_rate": 0.0422955422955423,
+        "over_prediction_rate": 0.0,
+        "exact_resolution_rate": 0.9577044577044577,
+        "rows": 11396
+      },
+      "primary": {
+        "n": 482,
+        "classes": [
+          0,
+          64,
+          128,
+          256,
+          512
+        ],
+        "classes_with_support": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            135,
+            182,
+            145,
+            20
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "confusion_row_predicted_col_true": true,
+        "per_class": {
+          "0": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "64": {
+            "support": 135,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "128": {
+            "support": 182,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "256": {
+            "support": 145,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "512": {
+            "support": 20,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "macro_f1": 0.0,
+        "accuracy": 0.0,
+        "under_prediction_rate": 1.0,
+        "over_prediction_rate": 0.0,
+        "exact_resolution_rate": 0.0,
+        "rows": 482,
+        "predicted_all_zero": true
+      },
+      "newly_visible": {
+        "n": 482,
+        "classes": [
+          0,
+          64,
+          128,
+          256,
+          512
+        ],
+        "classes_with_support": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            135,
+            182,
+            145,
+            20
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "confusion_row_predicted_col_true": true,
+        "per_class": {
+          "0": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "64": {
+            "support": 135,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "128": {
+            "support": 182,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "256": {
+            "support": 145,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "512": {
+            "support": 20,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "macro_f1": 0.0,
+        "accuracy": 0.0,
+        "under_prediction_rate": 1.0,
+        "over_prediction_rate": 0.0,
+        "exact_resolution_rate": 0.0,
+        "rows": 482,
+        "predicted_all_zero": true
+      },
+      "future_differs_from_current_implied": {
+        "rows": 482,
+        "rate": 0.0423
+      }
+    },
+    "1": {
+      "all_eligible": {
+        "n": 11874,
+        "classes": [
+          0,
+          64,
+          128,
+          256,
+          512,
+          1024
+        ],
+        "classes_with_support": [
+          64,
+          128,
+          256,
+          512,
+          1024
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            261,
+            369,
+            290,
+            40,
+            0
+          ],
+          [
+            0,
+            2434,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3911,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2583,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1732,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            254
+          ]
+        ],
+        "confusion_row_predicted_col_true": true,
+        "per_class": {
+          "0": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "64": {
+            "support": 2695,
+            "precision": 1.0,
+            "recall": 0.9031539888682746,
+            "f1": 0.9491128875024372
+          },
+          "128": {
+            "support": 4280,
+            "precision": 1.0,
+            "recall": 0.913785046728972,
+            "f1": 0.9549505554877304
+          },
+          "256": {
+            "support": 2873,
+            "precision": 1.0,
+            "recall": 0.8990602158022972,
+            "f1": 0.9468475073313782
+          },
+          "512": {
+            "support": 1772,
+            "precision": 1.0,
+            "recall": 0.9774266365688488,
+            "f1": 0.9885844748858448
+          },
+          "1024": {
+            "support": 254,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "macro_f1": 0.9678990850414781,
+        "accuracy": 0.9191510864072764,
+        "under_prediction_rate": 0.0808489135927236,
+        "over_prediction_rate": 0.0,
+        "exact_resolution_rate": 0.9191510864072764,
+        "rows": 11874
+      },
+      "primary": {
+        "n": 960,
+        "classes": [
+          0,
+          64,
+          128,
+          256,
+          512
+        ],
+        "classes_with_support": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            261,
+            369,
+            290,
+            40
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "confusion_row_predicted_col_true": true,
+        "per_class": {
+          "0": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "64": {
+            "support": 261,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "128": {
+            "support": 369,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "256": {
+            "support": 290,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "512": {
+            "support": 40,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "macro_f1": 0.0,
+        "accuracy": 0.0,
+        "under_prediction_rate": 1.0,
+        "over_prediction_rate": 0.0,
+        "exact_resolution_rate": 0.0,
+        "rows": 960,
+        "predicted_all_zero": true
+      },
+      "newly_visible": {
+        "n": 960,
+        "classes": [
+          0,
+          64,
+          128,
+          256,
+          512
+        ],
+        "classes_with_support": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            261,
+            369,
+            290,
+            40
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "confusion_row_predicted_col_true": true,
+        "per_class": {
+          "0": {
+            "support": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "64": {
+            "support": 261,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "128": {
+            "support": 369,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "256": {
+            "support": 290,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "512": {
+            "support": 40,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "macro_f1": 0.0,
+        "accuracy": 0.0,
+        "under_prediction_rate": 1.0,
+        "over_prediction_rate": 0.0,
+        "exact_resolution_rate": 0.0,
+        "rows": 960,
+        "predicted_all_zero": true
+      },
+      "future_differs_from_current_implied": {
+        "rows": 960,
+        "rate": 0.0808
+      }
+    }
+  }
+}

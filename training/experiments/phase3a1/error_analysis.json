@@ -1,0 +1,370 @@
+{
+  "parameters": {
+    "source": "training/experiments/phase3a/results.json",
+    "retuned": false,
+    "frustum": {
+      "damping": 0.0,
+      "angular_damping": 0.0,
+      "integrate_steps": 1,
+      "margin_threshold_deg": 0.0,
+      "occlusion_penalty_deg": 0.0
+    },
+    "threshold_deg": -5.0,
+    "selection_data": "phase 2.5 validation partition only"
+  },
+  "target": {
+    "horizon_seconds": 0.5,
+    "target": "frustum_visible_in_0_5s",
+    "subset": "primary: rows not currently in the frustum"
+  },
+  "positives_total": 2221,
+  "categories": {
+    "snap_affected": {
+      "positives": 262,
+      "predicted_positive": 10,
+      "recall": 0.0382,
+      "recall_at_5": 0.4142,
+      "share_of_positives": 0.118
+    },
+    "low_angular_speed": {
+      "positives": 572,
+      "predicted_positive": 268,
+      "recall": 0.4685,
+      "recall_at_5": 0.6199,
+      "share_of_positives": 0.2575
+    },
+    "turn_onset": {
+      "positives": 73,
+      "predicted_positive": 57,
+      "recall": 0.7808,
+      "recall_at_5": 0.7753,
+      "share_of_positives": 0.0329
+    },
+    "steady_rotation": {
+      "positives": 1314,
+      "predicted_positive": 945,
+      "recall": 0.7192,
+      "recall_at_5": 0.879,
+      "share_of_positives": 0.5916
+    },
+    "other": {
+      "positives": 0,
+      "predicted_positive": 0,
+      "recall": null,
+      "recall_at_5": null,
+      "share_of_positives": 0.0
+    }
+  },
+  "categories_with_any_flagged_snap": {
+    "snap_affected": 262,
+    "low_angular_speed": 572,
+    "turn_onset": 73,
+    "steady_rotation": 1314,
+    "other": 0
+  },
+  "category_note": "category 1 uses yaw snaps only (the generator defect); categories_with_any_flagged_snap is the same partition using the union of yaw and position flags, as a sensitivity check",
+  "cause_order": [
+    "snap_affected",
+    "low_angular_speed",
+    "turn_onset",
+    "steady_rotation",
+    "other"
+  ],
+  "thresholds": {
+    "low_angular_speed_deg_s": 5.0,
+    "turn_onset_accel_deg_s2": 50.0,
+    "snap_window_samples": 10
+  },
+  "headline": {
+    "all_rows": {
+      "n": 188469,
+      "positives": 65968,
+      "positive_rate": 0.3500204277626559,
+      "precision": 0.9915312985966688,
+      "recall": 0.8022222895949551,
+      "f1": 0.8868871552944921,
+      "pr_auc": 0.9623131075061386,
+      "tp": 52921,
+      "fp": 452,
+      "tn": 122049,
+      "fn": 13047
+    },
+    "primary": {
+      "n": 124722,
+      "positives": 2221,
+      "positive_rate": 0.017807604111544074,
+      "precision": 0.7390300230946882,
+      "recall": 0.5763169743358847,
+      "f1": 0.6476094105742474,
+      "pr_auc": 0.5971903500048121,
+      "tp": 1280,
+      "fp": 452,
+      "tn": 122049,
+      "fn": 941
+    },
+    "primary_excluding_yaw_snap_affected": {
+      "n": 121391,
+      "positives": 1959,
+      "positive_rate": 0.01613793444324538,
+      "precision": 0.7678355501813785,
+      "recall": 0.6482899438489025,
+      "f1": 0.7030168834763354,
+      "pr_auc": 0.7055449619714396,
+      "tp": 1270,
+      "fp": 384,
+      "tn": 119048,
+      "fn": 689
+    },
+    "yaw_snap_affected_primary_rows_removed": 3331,
+    "primary_excluding_any_flagged": {
+      "n": 121391,
+      "positives": 1959,
+      "positive_rate": 0.01613793444324538,
+      "precision": 0.7678355501813785,
+      "recall": 0.6482899438489025,
+      "f1": 0.7030168834763354,
+      "pr_auc": 0.7055449619714396,
+      "tp": 1270,
+      "fp": 384,
+      "tn": 119048,
+      "fn": 689
+    },
+    "any_flagged_primary_rows_removed": 3331
+  },
+  "position_jumps": {
+    "flagged": 115,
+    "velocity_consistent": 115,
+    "note": "a position jump consistent with cam_velocity is fast motion, not a discontinuity; 0 of 115 are inconsistent"
+  },
+  "by_distance": {
+    "0-5m": {
+      "positives": 291,
+      "recall": 0.2784,
+      "recall_at_5": 0.3425
+    },
+    "5-10m": {
+      "positives": 273,
+      "recall": 0.4212,
+      "recall_at_5": 0.6562
+    },
+    "10-15m": {
+      "positives": 453,
+      "recall": 0.5717,
+      "recall_at_5": 0.7787
+    },
+    "15-20m": {
+      "positives": 618,
+      "recall": 0.6149,
+      "recall_at_5": 0.8516
+    },
+    "20-25m": {
+      "positives": 586,
+      "recall": 0.7594,
+      "recall_at_5": 0.857
+    }
+  },
+  "by_category": {
+    "bld": {
+      "positives": 270,
+      "recall": 0.4519,
+      "recall_at_5": 0.7322
+    },
+    "plz": {
+      "positives": 90,
+      "recall": 0.1556,
+      "recall_at_5": 0.4103
+    },
+    "prp": {
+      "positives": 449,
+      "recall": 0.8107,
+      "recall_at_5": 0.8389
+    },
+    "rod": {
+      "positives": 1020,
+      "recall": 0.5461,
+      "recall_at_5": 0.7881
+    },
+    "shw": {
+      "positives": 230,
+      "recall": 0.5565,
+      "recall_at_5": 0.564
+    },
+    "wal": {
+      "positives": 162,
+      "recall": 0.5864,
+      "recall_at_5": 0.7321
+    }
+  },
+  "by_trajectory": {
+    "t01_walk_straight": {
+      "phase2_5_partition": "train",
+      "used_for_parameter_selection": false,
+      "primary_rows": 8744,
+      "positives": 0,
+      "recall": null,
+      "recall_at_5": null
+    },
+    "t02_sprint_straight": {
+      "phase2_5_partition": "validation",
+      "used_for_parameter_selection": true,
+      "primary_rows": 4483,
+      "positives": 0,
+      "recall": null,
+      "recall_at_5": null
+    },
+    "t03_walk_corner": {
+      "phase2_5_partition": "test",
+      "used_for_parameter_selection": false,
+      "primary_rows": 7943,
+      "positives": 35,
+      "recall": 0.8,
+      "recall_at_5": 1.0
+    },
+    "t04_sprint_corner": {
+      "phase2_5_partition": "train",
+      "used_for_parameter_selection": false,
+      "primary_rows": 3576,
+      "positives": 0,
+      "recall": null,
+      "recall_at_5": null
+    },
+    "t05_turn_left_right": {
+      "phase2_5_partition": "train",
+      "used_for_parameter_selection": false,
+      "primary_rows": 12771,
+      "positives": 227,
+      "recall": 0.6035,
+      "recall_at_5": 0.9293
+    },
+    "t06_look_around": {
+      "phase2_5_partition": "train",
+      "used_for_parameter_selection": false,
+      "primary_rows": 8093,
+      "positives": 551,
+      "recall": 0.7042,
+      "recall_at_5": 0.8538
+    },
+    "t07_stop_start": {
+      "phase2_5_partition": "train",
+      "used_for_parameter_selection": false,
+      "primary_rows": 12994,
+      "positives": 0,
+      "recall": null,
+      "recall_at_5": null
+    },
+    "t08_forward_reverse": {
+      "phase2_5_partition": "train",
+      "used_for_parameter_selection": false,
+      "primary_rows": 11811,
+      "positives": 472,
+      "recall": 0.5466,
+      "recall_at_5": 0.6367
+    },
+    "t09_approach_building": {
+      "phase2_5_partition": "train",
+      "used_for_parameter_selection": false,
+      "primary_rows": 11271,
+      "positives": 175,
+      "recall": 0.0,
+      "recall_at_5": 0.0
+    },
+    "t10_street_then_plaza": {
+      "phase2_5_partition": "validation",
+      "used_for_parameter_selection": true,
+      "primary_rows": 15051,
+      "positives": 367,
+      "recall": 0.7439,
+      "recall_at_5": 0.4739
+    },
+    "t11_slow_walk_down": {
+      "phase2_5_partition": "test",
+      "used_for_parameter_selection": false,
+      "primary_rows": 6643,
+      "positives": 0,
+      "recall": null,
+      "recall_at_5": null
+    },
+    "t12_sprint_weave": {
+      "phase2_5_partition": "train",
+      "used_for_parameter_selection": false,
+      "primary_rows": 6048,
+      "positives": 37,
+      "recall": 0.4324,
+      "recall_at_5": 0.8681
+    },
+    "t13_approach_prop": {
+      "phase2_5_partition": "test",
+      "used_for_parameter_selection": false,
+      "primary_rows": 6637,
+      "positives": 65,
+      "recall": 0.0,
+      "recall_at_5": 0.1538
+    },
+    "t14_plaza_look": {
+      "phase2_5_partition": "validation",
+      "used_for_parameter_selection": true,
+      "primary_rows": 8657,
+      "positives": 292,
+      "recall": 0.6164,
+      "recall_at_5": 0.8911
+    }
+  },
+  "out_of_fold": {
+    "trajectories": [
+      "t01_walk_straight",
+      "t03_walk_corner",
+      "t04_sprint_corner",
+      "t05_turn_left_right",
+      "t06_look_around",
+      "t07_stop_start",
+      "t08_forward_reverse",
+      "t09_approach_building",
+      "t11_slow_walk_down",
+      "t12_sprint_weave",
+      "t13_approach_prop"
+    ],
+    "positives": 1562,
+    "pooled_recall": 0.529449423815621
+  },
+  "parameter_stability": {
+    "chosen": {
+      "frustum": {
+        "damping": 0.0,
+        "angular_damping": 0.0,
+        "integrate_steps": 1,
+        "margin_threshold_deg": 0.0,
+        "occlusion_penalty_deg": 0.0
+      },
+      "occlusion": {
+        "damping": 1.0,
+        "angular_damping": 0.0,
+        "integrate_steps": 2,
+        "margin_threshold_deg": 0.0,
+        "occlusion_penalty_deg": 30.0
+      }
+    },
+    "chosen_thresholds": {
+      "frustum": {
+        "0.5": -5.0,
+        "1": -5.0
+      },
+      "occlusion": {
+        "0.5": 10.0,
+        "1": 10.0
+      }
+    },
+    "top_10_validation_scores": [
+      0.5575,
+      0.5518,
+      0.55,
+      0.5492,
+      0.5475,
+      0.5446,
+      0.5444,
+      0.5392,
+      0.5382,
+      0.5376
+    ],
+    "combinations_evaluated": 300
+  }
+}
