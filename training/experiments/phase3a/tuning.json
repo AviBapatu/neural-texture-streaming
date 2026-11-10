@@ -1,0 +1,3902 @@
+[
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6803598424452372,
+      "1": 0.43461451065939616
+    },
+    "selection_score": 0.5574871765523166
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.677092215020393,
+      "1": 0.42660115132626186
+    },
+    "selection_score": 0.5518466831733274
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6310465526292783,
+      "1": 0.4689847530148626
+    },
+    "selection_score": 0.5500156528220704
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6301430477679804,
+      "1": 0.4681718800688296
+    },
+    "selection_score": 0.5491574639184049
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6284132615512649,
+      "1": 0.4666485521615647
+    },
+    "selection_score": 0.5475309068564148
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6730028644448636,
+      "1": 0.41619884357957243
+    },
+    "selection_score": 0.544600854012218
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6224487574153978,
+      "1": 0.4663765150784047
+    },
+    "selection_score": 0.5444126362469013
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.613523507438303,
+      "1": 0.4649137501633582
+    },
+    "selection_score": 0.5392186288008306
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6082917934605356,
+      "1": 0.4680728743225808
+    },
+    "selection_score": 0.5381823338915582
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6076767660422983,
+      "1": 0.46756017538121547
+    },
+    "selection_score": 0.5376184707117568
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6068321318864613,
+      "1": 0.467232490096675
+    },
+    "selection_score": 0.5370323109915682
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6025323825355409,
+      "1": 0.46681625821320194
+    },
+    "selection_score": 0.5346743203743713
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6640423750964524,
+      "1": 0.4046565993283338
+    },
+    "selection_score": 0.5343494872123931
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.5986160392286125,
+      "1": 0.46760773624335233
+    },
+    "selection_score": 0.5331118877359824
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.5977315773452743,
+      "1": 0.46813828679875186
+    },
+    "selection_score": 0.532934932072013
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.5969534652366235,
+      "1": 0.4685035870449604
+    },
+    "selection_score": 0.5327285261407919
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.5961313631699352,
+      "1": 0.4679872392841602
+    },
+    "selection_score": 0.5320593012270477
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.5957813737085882,
+      "1": 0.4646549114001169
+    },
+    "selection_score": 0.5302181425543525
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.5911420423586915,
+      "1": 0.4673594376018112
+    },
+    "selection_score": 0.5292507399802513
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.6488977237835779,
+      "1": 0.38644265431374575
+    },
+    "selection_score": 0.5176701890486618
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.565801055214641,
+      "1": 0.46038201759896097
+    },
+    "selection_score": 0.5130915364068009
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.5648847855791782,
+      "1": 0.46069397178365135
+    },
+    "selection_score": 0.5127893786814148
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.5641509175598027,
+      "1": 0.46120147404505957
+    },
+    "selection_score": 0.5126761958024312
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.5640487052835397,
+      "1": 0.46090107402197233
+    },
+    "selection_score": 0.512474889652756
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.5605040629022923,
+      "1": 0.46114141688734844
+    },
+    "selection_score": 0.5108227398948204
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.44902653145777754,
+      "1": 0.5103246542129205
+    },
+    "selection_score": 0.479675592835349
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.44399817393120933,
+      "1": 0.5147135229024997
+    },
+    "selection_score": 0.4793558484168545
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.4391161396168245,
+      "1": 0.5150306622185968
+    },
+    "selection_score": 0.47707340091771067
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.44434859929208176,
+      "1": 0.5006097949572345
+    },
+    "selection_score": 0.47247919712465813
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.4298373878543921,
+      "1": 0.4761263167703235
+    },
+    "selection_score": 0.45298185231235777
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.39573981407091685,
+      "1": 0.47073590994254705
+    },
+    "selection_score": 0.433237862006732
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.3901816183569717,
+      "1": 0.4732097795008643
+    },
+    "selection_score": 0.431695698928918
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.395767383307581,
+      "1": 0.4656337618069417
+    },
+    "selection_score": 0.43070057255726135
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.38605370762894264,
+      "1": 0.4720875053501024
+    },
+    "selection_score": 0.42907060648952255
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.3936941787064609,
+      "1": 0.45357592657872214
+    },
+    "selection_score": 0.4236350526425915
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.3827863928259679,
+      "1": 0.4562197926674241
+    },
+    "selection_score": 0.41950309274669595
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.38462188302363914,
+      "1": 0.4532075208869122
+    },
+    "selection_score": 0.4189147019552757
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.3768820756420046,
+      "1": 0.45747585928336953
+    },
+    "selection_score": 0.41717896746268707
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.3840964567768929,
+      "1": 0.4458794237666538
+    },
+    "selection_score": 0.4149879402717733
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.3726003261727449,
+      "1": 0.45537578503938936
+    },
+    "selection_score": 0.4139880556060671
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.37911351075204724,
+      "1": 0.44408466261817386
+    },
+    "selection_score": 0.4115990866851106
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.38157181284103714,
+      "1": 0.44115848735837715
+    },
+    "selection_score": 0.41136515009970714
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.37475033114701894,
+      "1": 0.4438097289552152
+    },
+    "selection_score": 0.40928003005111707
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.3670150586362777,
+      "1": 0.44260879909836687
+    },
+    "selection_score": 0.4048119288673223
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.38008815910850624,
+      "1": 0.4280328861157026
+    },
+    "selection_score": 0.40406052261210446
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.3748896348213612,
+      "1": 0.4280782549214323
+    },
+    "selection_score": 0.4014839448713967
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.361501946651499,
+      "1": 0.43896384057191234
+    },
+    "selection_score": 0.40023289361170566
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.36786222182537953,
+      "1": 0.42573600784264737
+    },
+    "selection_score": 0.3967991148340134
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.3580946512492974,
+      "1": 0.422846385828843
+    },
+    "selection_score": 0.3904705185390702
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.3510662642976696,
+      "1": 0.4176887362623605
+    },
+    "selection_score": 0.38437750028001505
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.2716603052136364,
+      "1": 0.21391218042234
+    },
+    "selection_score": 0.2427862428179882
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.26638358717274024,
+      "1": 0.20918594204355673
+    },
+    "selection_score": 0.23778476460814849
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.26611821736131036,
+      "1": 0.2078343748710581
+    },
+    "selection_score": 0.23697629611618423
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.2655904551474687,
+      "1": 0.20656872387207253
+    },
+    "selection_score": 0.23607958950977062
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.2615272041416136,
+      "1": 0.20639117291341474
+    },
+    "selection_score": 0.23395918852751418
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.2616570300558523,
+      "1": 0.20553979754878804
+    },
+    "selection_score": 0.23359841380232016
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.2614666348596333,
+      "1": 0.20546810000298762
+    },
+    "selection_score": 0.23346736743131047
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.25699794917869767,
+      "1": 0.20591166900702124
+    },
+    "selection_score": 0.23145480909285945
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.25705308423981776,
+      "1": 0.20429348465880248
+    },
+    "selection_score": 0.23067328444931012
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.25298207289490404,
+      "1": 0.20332370557006518
+    },
+    "selection_score": 0.2281528892324846
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.22190525239325254,
+      "1": 0.23297057302061902
+    },
+    "selection_score": 0.22743791270693578
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.24954200735519527,
+      "1": 0.20459972467614923
+    },
+    "selection_score": 0.22707086601567225
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.2492366435709363,
+      "1": 0.20438816294864695
+    },
+    "selection_score": 0.22681240325979163
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.24737911689632922,
+      "1": 0.20341915292978846
+    },
+    "selection_score": 0.22539913491305885
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.24329194742336904,
+      "1": 0.2041840991961019
+    },
+    "selection_score": 0.22373802330973547
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.24610267790409138,
+      "1": 0.20114804779226958
+    },
+    "selection_score": 0.22362536284818046
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.24346956179102647,
+      "1": 0.20299530519172204
+    },
+    "selection_score": 0.22323243349137425
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.2427719073512997,
+      "1": 0.20294381992853597
+    },
+    "selection_score": 0.22285786363991783
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.28324512609592084,
+      "1": 0.1611111538125892
+    },
+    "selection_score": 0.222178139954255
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.23942925523771008,
+      "1": 0.20255918320150884
+    },
+    "selection_score": 0.22099421921960946
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.27678285494047683,
+      "1": 0.1623452198763181
+    },
+    "selection_score": 0.21956403740839747
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.23272994929686072,
+      "1": 0.20334003969665726
+    },
+    "selection_score": 0.218034994496759
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.26994003159642027,
+      "1": 0.16525297268610198
+    },
+    "selection_score": 0.21759650214126114
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.2275183979947493,
+      "1": 0.20357427048090937
+    },
+    "selection_score": 0.21554633423782932
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.2068889055793853,
+      "1": 0.22042780530052591
+    },
+    "selection_score": 0.2136583554399556
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.2591559658017337,
+      "1": 0.16787328048833275
+    },
+    "selection_score": 0.21351462314503322
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.20300307347875995,
+      "1": 0.22328051654777673
+    },
+    "selection_score": 0.21314179501326835
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.25094597936199803,
+      "1": 0.16748974446046835
+    },
+    "selection_score": 0.2092178619112332
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.22665776472991905,
+      "1": 0.19027824602412627
+    },
+    "selection_score": 0.20846800537702265
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1932737339488696,
+      "1": 0.2215172210008925
+    },
+    "selection_score": 0.20739547747488105
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.22458587246285389,
+      "1": 0.18921495294377974
+    },
+    "selection_score": 0.20690041270331683
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.22191960597390106,
+      "1": 0.19079369235648957
+    },
+    "selection_score": 0.2063566491651953
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.18894069675928235,
+      "1": 0.22014973384384745
+    },
+    "selection_score": 0.2045452153015649
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.2198479581733103,
+      "1": 0.18783984700796197
+    },
+    "selection_score": 0.20384390259063612
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.2201748949574602,
+      "1": 0.18599416555124618
+    },
+    "selection_score": 0.2030845302543532
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.2164211091759089,
+      "1": 0.1890654119998756
+    },
+    "selection_score": 0.20274326058789224
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1891979282039568,
+      "1": 0.2138651174418415
+    },
+    "selection_score": 0.20153152282289916
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.18861168738720568,
+      "1": 0.21222405536396993
+    },
+    "selection_score": 0.2004178713755878
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.21251235802823498,
+      "1": 0.18747517322865667
+    },
+    "selection_score": 0.19999376562844584
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.2088406680259206,
+      "1": 0.18918178061101443
+    },
+    "selection_score": 0.19901122431846752
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.21238970072292077,
+      "1": 0.18331125105386636
+    },
+    "selection_score": 0.19785047588839355
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.18107320296170762,
+      "1": 0.21302513040783286
+    },
+    "selection_score": 0.19704916668477024
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.189519534540731,
+      "1": 0.20447614670861167
+    },
+    "selection_score": 0.19699784062467135
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.2070147926072452,
+      "1": 0.18642144215596587
+    },
+    "selection_score": 0.19671811738160555
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1774264767089442,
+      "1": 0.21215481902994354
+    },
+    "selection_score": 0.1947906478694439
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.2025465001886109,
+      "1": 0.18592916976153992
+    },
+    "selection_score": 0.1942378349750754
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.19951843626819887,
+      "1": 0.18885287539969825
+    },
+    "selection_score": 0.19418565583394856
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.19516184122186545,
+      "1": 0.18874595021893978
+    },
+    "selection_score": 0.1919538957204026
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.19592109364609747,
+      "1": 0.18627330052188767
+    },
+    "selection_score": 0.1910971970839926
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.17723423050122727,
+      "1": 0.2049483201956642
+    },
+    "selection_score": 0.19109127534844572
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.1920693987377837,
+      "1": 0.18984391573217532
+    },
+    "selection_score": 0.1909566572349795
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.197607983592886,
+      "1": 0.18323165288808274
+    },
+    "selection_score": 0.19041981824048437
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.17528565829569462,
+      "1": 0.20163169350490778
+    },
+    "selection_score": 0.1884586759003012
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.18728158772218287,
+      "1": 0.1887856509987727
+    },
+    "selection_score": 0.1880336193604778
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.18972881780257442,
+      "1": 0.18349528740112275
+    },
+    "selection_score": 0.1866120526018486
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.18378913247759252,
+      "1": 0.18827606992385937
+    },
+    "selection_score": 0.18603260120072596
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.16785864513704082,
+      "1": 0.2022028062507182
+    },
+    "selection_score": 0.18503072569387952
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.2350377824721616,
+      "1": 0.13392654042726684
+    },
+    "selection_score": 0.18448216144971422
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.17698791639911443,
+      "1": 0.18993151122061805
+    },
+    "selection_score": 0.18345971380986625
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.16498487484852853,
+      "1": 0.20179215940285156
+    },
+    "selection_score": 0.18338851712569004
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1729411827719339,
+      "1": 0.1900571476383494
+    },
+    "selection_score": 0.18149916520514164
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.16506733522240785,
+      "1": 0.19581053509267002
+    },
+    "selection_score": 0.18043893515753895
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.2265838637134029,
+      "1": 0.1322623905522479
+    },
+    "selection_score": 0.17942312713282538
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1631858512794481,
+      "1": 0.19169205546316617
+    },
+    "selection_score": 0.17743895337130713
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.21657542840754457,
+      "1": 0.1350290198039699
+    },
+    "selection_score": 0.17580222410575724
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1563666929966318,
+      "1": 0.1934634427166747
+    },
+    "selection_score": 0.17491506785665326
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.15421586532374967,
+      "1": 0.19402771597345986
+    },
+    "selection_score": 0.17412179064860478
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.15450861833813592,
+      "1": 0.18836435117779363
+    },
+    "selection_score": 0.17143648475796477
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.1433728693763009,
+      "1": 0.19841168358436223
+    },
+    "selection_score": 0.17089227648033156
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.20028787609582394,
+      "1": 0.13990612498524468
+    },
+    "selection_score": 0.1700970005405343
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.159869573583407,
+      "1": 0.17846970111810123
+    },
+    "selection_score": 0.16916963735075413
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.15234756856035583,
+      "1": 0.1839365208869609
+    },
+    "selection_score": 0.16814204472365837
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.14537945124300533,
+      "1": 0.18885951763914596
+    },
+    "selection_score": 0.16711948444107566
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1473252664173852,
+      "1": 0.1867453957775347
+    },
+    "selection_score": 0.16703533109745994
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.19152018095519477,
+      "1": 0.142244075935361
+    },
+    "selection_score": 0.1668821284452779
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.14631983720800967,
+      "1": 0.18336698694881443
+    },
+    "selection_score": 0.16484341207841205
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.13583540819570955,
+      "1": 0.19122187525284245
+    },
+    "selection_score": 0.163528641724276
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.12967492052957105,
+      "1": 0.18991006449535872
+    },
+    "selection_score": 0.15979249251246488
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.12544681498094193,
+      "1": 0.18976546260752652
+    },
+    "selection_score": 0.15760613879423424
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.12832693897976,
+      "1": 0.1819337579590058
+    },
+    "selection_score": 0.1551303484693829
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.12518526439215705,
+      "1": 0.18272602034125052
+    },
+    "selection_score": 0.15395564236670378
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.12247027114926183,
+      "1": 0.17895029281837113
+    },
+    "selection_score": 0.15071028198381647
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11810142698191191,
+      "1": 0.17878504040541213
+    },
+    "selection_score": 0.14844323369366202
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11470126278264152,
+      "1": 0.17944539461667564
+    },
+    "selection_score": 0.14707332869965858
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.14026297199845122,
+      "1": 0.15183363379623488
+    },
+    "selection_score": 0.14604830289734305
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.13872873003797015,
+      "1": 0.15058290534227467
+    },
+    "selection_score": 0.14465581769012242
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11465194841165162,
+      "1": 0.17335804824462317
+    },
+    "selection_score": 0.1440049983281374
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11974174092158359,
+      "1": 0.16370978694328753
+    },
+    "selection_score": 0.14172576393243555
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.13566602099411196,
+      "1": 0.14764160095848597
+    },
+    "selection_score": 0.14165381097629898
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.1356652489238523,
+      "1": 0.14763568986400671
+    },
+    "selection_score": 0.1416504693939295
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11568795223991633,
+      "1": 0.1637414033248389
+    },
+    "selection_score": 0.13971467778237762
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11170482482697999,
+      "1": 0.16496681066172794
+    },
+    "selection_score": 0.13833581774435397
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.1319637701497811,
+      "1": 0.14453947406287282
+    },
+    "selection_score": 0.13825162210632697
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.10878316751751227,
+      "1": 0.16651134008413418
+    },
+    "selection_score": 0.1376472538008232
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.13100159585551158,
+      "1": 0.14326492387653209
+    },
+    "selection_score": 0.13713325986602182
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.10922555021556608,
+      "1": 0.16153771453494092
+    },
+    "selection_score": 0.1353816323752535
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.12838037266750726,
+      "1": 0.14046159145797105
+    },
+    "selection_score": 0.13442098206273917
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.12838001395080723,
+      "1": 0.14045840190522507
+    },
+    "selection_score": 0.13441920792801615
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.1283796725331833,
+      "1": 0.1404555246542952
+    },
+    "selection_score": 0.13441759859373925
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11149181917207657,
+      "1": 0.1544213794917414
+    },
+    "selection_score": 0.13295659933190898
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11382087998831358,
+      "1": 0.1516217844070895
+    },
+    "selection_score": 0.13272133219770155
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.12705360406847527,
+      "1": 0.13829277576938817
+    },
+    "selection_score": 0.13267318991893173
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.10529340387007449,
+      "1": 0.158987624232631
+    },
+    "selection_score": 0.13214051405135274
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.10752556218819476,
+      "1": 0.1565369260879198
+    },
+    "selection_score": 0.13203124413805728
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.13019816754663757,
+      "1": 0.1337512000646366
+    },
+    "selection_score": 0.1319746838056371
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.13019816754663757,
+      "1": 0.1337512000646366
+    },
+    "selection_score": 0.1319746838056371
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.13019816754663757,
+      "1": 0.1337512000646366
+    },
+    "selection_score": 0.1319746838056371
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.13019816754663757,
+      "1": 0.1337512000646366
+    },
+    "selection_score": 0.1319746838056371
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.13019816754663757,
+      "1": 0.1337512000646366
+    },
+    "selection_score": 0.1319746838056371
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12995987071516807,
+      "1": 0.13328602537155262
+    },
+    "selection_score": 0.13162294804336033
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1297178579304203,
+      "1": 0.1328461543499704
+    },
+    "selection_score": 0.13128200614019536
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.129716116975397,
+      "1": 0.13283000468632128
+    },
+    "selection_score": 0.13127306083085916
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.1256165989452078,
+      "1": 0.13667415510220748
+    },
+    "selection_score": 0.13114537702370765
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12949285423425264,
+      "1": 0.13241928329872862
+    },
+    "selection_score": 0.13095606876649063
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12939134976757172,
+      "1": 0.13221296188774656
+    },
+    "selection_score": 0.13080215582765914
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.12516105565058006,
+      "1": 0.13608711245515465
+    },
+    "selection_score": 0.13062408405286735
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12923329360272204,
+      "1": 0.13195269459957104
+    },
+    "selection_score": 0.13059299410114655
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12922311538786269,
+      "1": 0.13191605775114973
+    },
+    "selection_score": 0.1305695865695062
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1289758003834097,
+      "1": 0.13153433667776557
+    },
+    "selection_score": 0.13025506853058763
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.10582249070853825,
+      "1": 0.15457631565067384
+    },
+    "selection_score": 0.13019940317960604
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1287867103567469,
+      "1": 0.13110691871064883
+    },
+    "selection_score": 0.12994681453369789
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12860951793003053,
+      "1": 0.13078765605791418
+    },
+    "selection_score": 0.12969858699397235
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12831707014952132,
+      "1": 0.13024258971699038
+    },
+    "selection_score": 0.12927982993325585
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.12345608374336352,
+      "1": 0.1348070921970177
+    },
+    "selection_score": 0.12913158797019061
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12793095011703307,
+      "1": 0.12859807182891697
+    },
+    "selection_score": 0.12826451097297503
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12792598317993545,
+      "1": 0.1285794879634823
+    },
+    "selection_score": 0.12825273557170885
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1279218112397826,
+      "1": 0.12856133079304716
+    },
+    "selection_score": 0.12824157101641487
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.12229779933199486,
+      "1": 0.13351272833805256
+    },
+    "selection_score": 0.1279052638350237
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.12229719808125221,
+      "1": 0.13350774048504516
+    },
+    "selection_score": 0.1279024692831487
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.10260075934045344,
+      "1": 0.15208825453953462
+    },
+    "selection_score": 0.12734450693999402
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.1212834526396775,
+      "1": 0.13224760830060267
+    },
+    "selection_score": 0.12676553047014008
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.10806957593130474,
+      "1": 0.1454229938120728
+    },
+    "selection_score": 0.12674628487168876
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12720347638860582,
+      "1": 0.12602931958783387
+    },
+    "selection_score": 0.12661639798821983
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.10474854683411805,
+      "1": 0.14829357664868809
+    },
+    "selection_score": 0.12652106174140307
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.12059530404267549,
+      "1": 0.13187749795892015
+    },
+    "selection_score": 0.1262364010007978
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.1268365966405532,
+      "1": 0.12497601590169989
+    },
+    "selection_score": 0.12590630627112653
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.1035898558962192,
+      "1": 0.14788358143511307
+    },
+    "selection_score": 0.12573671866566613
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.10989410685187752,
+      "1": 0.14058918621426914
+    },
+    "selection_score": 0.12524164653307332
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.11879626218388091,
+      "1": 0.12932163208991654
+    },
+    "selection_score": 0.12405894713689872
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.11879589940494532,
+      "1": 0.129318710301049
+    },
+    "selection_score": 0.12405730485299715
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12425981774177274,
+      "1": 0.1206349106178193
+    },
+    "selection_score": 0.12244736417979601
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.12420975236400184,
+      "1": 0.1205310604081028
+    },
+    "selection_score": 0.12237040638605232
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.11685935945277189,
+      "1": 0.1269417126640129
+    },
+    "selection_score": 0.1219005360583924
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11868549689501685,
+      "1": 0.12193827559007367
+    },
+    "selection_score": 0.12031188624254527
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11868549689501685,
+      "1": 0.12193827559007367
+    },
+    "selection_score": 0.12031188624254527
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11868549689501685,
+      "1": 0.12193827559007367
+    },
+    "selection_score": 0.12031188624254527
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11868549689501685,
+      "1": 0.12193827559007367
+    },
+    "selection_score": 0.12031188624254527
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11868549689501685,
+      "1": 0.12193827559007367
+    },
+    "selection_score": 0.12031188624254527
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11845531302648034,
+      "1": 0.12142938886585324
+    },
+    "selection_score": 0.11994235094616679
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.11505480926061015,
+      "1": 0.12387053055774928
+    },
+    "selection_score": 0.11946266990917973
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.11505480926061015,
+      "1": 0.12387053055774928
+    },
+    "selection_score": 0.11946266990917973
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.11505480926061015,
+      "1": 0.12387053055774928
+    },
+    "selection_score": 0.11946266990917973
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.11505480926061015,
+      "1": 0.12387053055774928
+    },
+    "selection_score": 0.11946266990917973
+  },
+  {
+    "occlusion_aware": false,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.11505480926061015,
+      "1": 0.12387053055774928
+    },
+    "selection_score": 0.11946266990917973
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11813830064537577,
+      "1": 0.1207036050298596
+    },
+    "selection_score": 0.1194209528376177
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11813700219306258,
+      "1": 0.1206854147625922
+    },
+    "selection_score": 0.1194112084778274
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11777237264492385,
+      "1": 0.1199872733796345
+    },
+    "selection_score": 0.11887982301227917
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11763461210342359,
+      "1": 0.1197397534832365
+    },
+    "selection_score": 0.11868718279333004
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11725603224945548,
+      "1": 0.11925168994003893
+    },
+    "selection_score": 0.1182538610947472
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11725143979746694,
+      "1": 0.11920288180792286
+    },
+    "selection_score": 0.11822716080269491
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11702621386312356,
+      "1": 0.11879349250361328
+    },
+    "selection_score": 0.11790985318336841
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11685049906110308,
+      "1": 0.11809575934634856
+    },
+    "selection_score": 0.11747312920372582
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11669140701762551,
+      "1": 0.11741524780478689
+    },
+    "selection_score": 0.11705332741120619
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11636927236972243,
+      "1": 0.11661154556423582
+    },
+    "selection_score": 0.11649040896697913
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.1159835042344258,
+      "1": 0.1155260754207226
+    },
+    "selection_score": 0.1157547898275742
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11598156392846319,
+      "1": 0.11549624534295569
+    },
+    "selection_score": 0.11573890463570943
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11597831282454665,
+      "1": 0.11547824631885822
+    },
+    "selection_score": 0.11572827957170244
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.11925262577245789,
+      "1": 0.11142531845495011
+    },
+    "selection_score": 0.115338972113704
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11526619581765588,
+      "1": 0.1135982528359744
+    },
+    "selection_score": 0.11443222432681513
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.1149172478068789,
+      "1": 0.1122524533660121
+    },
+    "selection_score": 0.11358485058644549
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11407784779175716,
+      "1": 0.10865519478354778
+    },
+    "selection_score": 0.11136652128765247
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11403266848126832,
+      "1": 0.10853978674828076
+    },
+    "selection_score": 0.11128622761477454
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 30.0,
+    "per_horizon": {
+      "0.5": 0.11546074813621526,
+      "1": 0.10498483010919327
+    },
+    "selection_score": 0.11022278912270426
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.11234412736536667,
+      "1": 0.10319849175763068
+    },
+    "selection_score": 0.10777130956149868
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.09176795758006706,
+      "1": 0.1193758692531425
+    },
+    "selection_score": 0.10557191341660478
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 10.0,
+    "per_horizon": {
+      "0.5": 0.10981972193678334,
+      "1": 0.09978698944165768
+    },
+    "selection_score": 0.1048033556892205
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08871767191988761,
+      "1": 0.12080438579274355
+    },
+    "selection_score": 0.10476102885631558
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08994784005154542,
+      "1": 0.11888359735479496
+    },
+    "selection_score": 0.1044157187031702
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08650455369251073,
+      "1": 0.12059022285495453
+    },
+    "selection_score": 0.10354738827373264
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08733400841476,
+      "1": 0.11912591311419764
+    },
+    "selection_score": 0.10322996076447882
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08746329650899909,
+      "1": 0.1189415858528038
+    },
+    "selection_score": 0.10320244118090144
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08839740742118772,
+      "1": 0.11698215594602501
+    },
+    "selection_score": 0.10268978168360637
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08405209357576701,
+      "1": 0.1207302807095698
+    },
+    "selection_score": 0.1023911871426684
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08534834756261894,
+      "1": 0.11938820300314144
+    },
+    "selection_score": 0.1023682752828802
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08464177285015877,
+      "1": 0.11941276186021917
+    },
+    "selection_score": 0.10202726735518897
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.0831949350240418,
+      "1": 0.12017493324301333
+    },
+    "selection_score": 0.10168493413352755
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.0809397522499708,
+      "1": 0.12223850748317115
+    },
+    "selection_score": 0.10158912986657098
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08037139123475699,
+      "1": 0.12204410584443448
+    },
+    "selection_score": 0.10120774853959574
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08109510881417911,
+      "1": 0.12018295980403323
+    },
+    "selection_score": 0.10063903430910617
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.07794570521812288,
+      "1": 0.12324208577865609
+    },
+    "selection_score": 0.10059389549838949
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.07809810695765994,
+      "1": 0.12275946786368591
+    },
+    "selection_score": 0.10042878741067293
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08524566641918942,
+      "1": 0.11552651077163045
+    },
+    "selection_score": 0.10038608859540993
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.07800038688511877,
+      "1": 0.12011618096905258
+    },
+    "selection_score": 0.09905828392708568
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08119397447834793,
+      "1": 0.11562915006546247
+    },
+    "selection_score": 0.0984115622719052
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.09739649222049797,
+      "1": 0.09941328810198868
+    },
+    "selection_score": 0.09840489016124332
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.07758183772100007,
+      "1": 0.11480221661414568
+    },
+    "selection_score": 0.09619202716757287
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.09285968217916428,
+      "1": 0.0984290356692871
+    },
+    "selection_score": 0.09564435892422568
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08808077300011814,
+      "1": 0.0986342327333116
+    },
+    "selection_score": 0.09335750286671488
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.08265768382527446,
+      "1": 0.09925851657033041
+    },
+    "selection_score": 0.09095810019780243
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.06336935718658782,
+      "1": 0.1137549249160476
+    },
+    "selection_score": 0.08856214105131771
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.07790766052341778,
+      "1": 0.09780639089268234
+    },
+    "selection_score": 0.08785702570805007
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.06175064757459423,
+      "1": 0.10815114034180451
+    },
+    "selection_score": 0.08495089395819937
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.06111646847840558,
+      "1": 0.10677931829180595
+    },
+    "selection_score": 0.08394789338510576
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.06077886245584838,
+      "1": 0.10603110186625958
+    },
+    "selection_score": 0.08340498216105398
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.06053638686639297,
+      "1": 0.10611720640805233
+    },
+    "selection_score": 0.08332679663722264
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.0596281872343103,
+      "1": 0.1053151863929443
+    },
+    "selection_score": 0.08247168681362729
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.05908088232593399,
+      "1": 0.10231118172871964
+    },
+    "selection_score": 0.08069603202732681
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.0585168080365205,
+      "1": 0.10235080089413028
+    },
+    "selection_score": 0.08043380446532539
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.0587592366932357,
+      "1": 0.10202516790150916
+    },
+    "selection_score": 0.08039220229737243
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.0586341156338851,
+      "1": 0.10182755118057793
+    },
+    "selection_score": 0.08023083340723151
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.0571015005700934,
+      "1": 0.09814190738821248
+    },
+    "selection_score": 0.07762170397915294
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.057025501786225875,
+      "1": 0.09703897181591047
+    },
+    "selection_score": 0.07703223680106817
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.056950884001512256,
+      "1": 0.09668767263835283
+    },
+    "selection_score": 0.07681927831993254
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.056329519236237746,
+      "1": 0.09679780290026922
+    },
+    "selection_score": 0.07656366106825349
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.056898708269015275,
+      "1": 0.09606759279072372
+    },
+    "selection_score": 0.0764831505298695
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.05595775572346955,
+      "1": 0.09500192838219118
+    },
+    "selection_score": 0.07547984205283037
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.05574883477589741,
+      "1": 0.09354125873899155
+    },
+    "selection_score": 0.07464504675744449
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.05533950096502199,
+      "1": 0.09252430319007944
+    },
+    "selection_score": 0.07393190207755071
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.05494082742703459,
+      "1": 0.09207261687412861
+    },
+    "selection_score": 0.0735067221505816
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.05498941177587927,
+      "1": 0.09141163209792187
+    },
+    "selection_score": 0.07320052193690058
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.054503156258237206,
+      "1": 0.0901958449226184
+    },
+    "selection_score": 0.0723495005904278
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.05366362745705069,
+      "1": 0.08943925928352994
+    },
+    "selection_score": 0.07155144337029032
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.05386705619690707,
+      "1": 0.08881800928444579
+    },
+    "selection_score": 0.07134253274067642
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.05310912817442708,
+      "1": 0.0871659829971562
+    },
+    "selection_score": 0.07013755558579164
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 0.5,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.051328228939270096,
+      "1": 0.08198345044567144
+    },
+    "selection_score": 0.06665583969247077
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04980897343744779,
+      "1": 0.07433078699956366
+    },
+    "selection_score": 0.06206988021850573
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04980897343744779,
+      "1": 0.07433078699956366
+    },
+    "selection_score": 0.06206988021850573
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04980897343744779,
+      "1": 0.07433078699956366
+    },
+    "selection_score": 0.06206988021850573
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04980897343744779,
+      "1": 0.07433078699956366
+    },
+    "selection_score": 0.06206988021850573
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 1.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04980897343744779,
+      "1": 0.07433078699956366
+    },
+    "selection_score": 0.06206988021850573
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04960252635133764,
+      "1": 0.07393668022367077
+    },
+    "selection_score": 0.06176960328750421
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.049433211143315295,
+      "1": 0.0735175623297247
+    },
+    "selection_score": 0.06147538673652
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04943249039975266,
+      "1": 0.07350181771361317
+    },
+    "selection_score": 0.06146715405668291
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04924096385464307,
+      "1": 0.07312795096612446
+    },
+    "selection_score": 0.061184457410383766
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04916501744954313,
+      "1": 0.07291175503767083
+    },
+    "selection_score": 0.06103838624360698
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 10,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04902393884495601,
+      "1": 0.07260401067185654
+    },
+    "selection_score": 0.060813974758406275
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.049020125645184674,
+      "1": 0.07255880122340809
+    },
+    "selection_score": 0.06078946343429638
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04881025489685482,
+      "1": 0.07213733944584444
+    },
+    "selection_score": 0.060473797171349625
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.0486388344949139,
+      "1": 0.07171578044820097
+    },
+    "selection_score": 0.06017730747155743
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.048478927496065034,
+      "1": 0.07137492978026473
+    },
+    "selection_score": 0.059926928638164886
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 5,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04813220808970302,
+      "1": 0.07074338805705664
+    },
+    "selection_score": 0.05943779807337983
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04769083815547214,
+      "1": 0.06991049202447537
+    },
+    "selection_score": 0.05880066508997375
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04768927710183338,
+      "1": 0.06988240398684405
+    },
+    "selection_score": 0.05878584054433871
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.75,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04768883763117067,
+      "1": 0.0698662938173539
+    },
+    "selection_score": 0.058777565724262286
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 3,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.0469294659047637,
+      "1": 0.06870006248672601
+    },
+    "selection_score": 0.057814764195744855
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.0465438988573545,
+      "1": 0.06800836393623912
+    },
+    "selection_score": 0.05727613139679681
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 2,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.045394186297547955,
+      "1": 0.06617617251613812
+    },
+    "selection_score": 0.055785179406843036
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.5,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.04537508884712062,
+      "1": 0.06611038440197324
+    },
+    "selection_score": 0.05574273662454693
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.25,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.043612737225002814,
+      "1": 0.06190138306871987
+    },
+    "selection_score": 0.05275706014686134
+  },
+  {
+    "occlusion_aware": true,
+    "damping": 0.0,
+    "angular_damping": 1.0,
+    "integrate_steps": 1,
+    "margin_threshold_deg": 0.0,
+    "occlusion_penalty_deg": 0.0,
+    "per_horizon": {
+      "0.5": 0.0420766093199015,
+      "1": 0.05832306235379115
+    },
+    "selection_score": 0.05019983583684633
+  }
+]
