@@ -1,0 +1,200 @@
+# Phase 3a feature pipeline configuration.
+#
+# Every feature that reaches a model must be named in `features.allow`. The loader
+# builds the matrix from that list only, so a new column in the dataset can never
+# silently become a model input.
+
+version: 1
+
+# Sampling. The pipeline records one sample every 6 physics ticks at 60 Hz.
+sample_interval_seconds: 0.1
+horizons: [0.5, 1.0]
+
+# Causal history depth: pose deltas for the K most recent intervals, each with an
+# explicit validity mask. K=4 covers 0.4 s of backward context.
+history_k: 4
+
+features:
+  # Texture identity is excluded by default. Phase 3b may enable it to ablate
+  # whether the model can memorise per-texture behaviour, but a texture-id feature
+  # makes the model brittle on the 10 identities that have no variants.
+  include_texture_identity: false
+  include_object_category: true
+
+  # The allow-list. Column order in the feature matrix follows this order.
+  allow:
+    # --- camera-frame object geometry ---
+    - obj_cam_x
+    - obj_cam_y
+    - obj_cam_z
+    - obj_cam_radius
+    - distance
+    - azimuth_deg
+    - elevation_deg
+    - bearing_rate_deg_s
+    - bearing_rate_valid
+    - closing_speed_m_s
+    - closing_speed_valid
+    # --- camera linear motion ---
+    - cam_speed
+    - cam_vel_cam_x
+    - cam_vel_cam_y
+    - cam_vel_cam_z
+    - cam_lin_accel_mag
+    - cam_lin_accel_valid
+    - cam_accel_cam_x
+    - cam_accel_cam_y
+    - cam_accel_cam_z
+    # --- camera angular motion ---
+    - cam_yaw_rate_deg_s
+    - cam_pitch_rate_deg_s
+    - cam_roll_rate_deg_s
+    - cam_ang_speed_deg_s
+    - cam_ang_accel_deg_s2
+    - cam_ang_accel_valid
+    # --- causal pose history (also masked by hist_valid_*) ---
+    - hist_dpos_1
+    - hist_dpos_2
+    - hist_dpos_3
+    - hist_dpos_4
+    - hist_dyaw_1
+    - hist_dyaw_2
+    - hist_dyaw_3
+    - hist_dyaw_4
+    - hist_dpitch_1
+    - hist_dpitch_2
+    - hist_dpitch_3
+    - hist_dpitch_4
+    - hist_speed_1
+    - hist_speed_2
+    - hist_speed_3
+    - hist_speed_4
+    - hist_valid_1
+    - hist_valid_2
+    - hist_valid_3
+    - hist_valid_4
+    # --- current screen state ---
+    - coverage
+    - log_coverage
+    - frustum_visible
+    - occlusion_true
+    - occlusion_false
+    - occlusion_unknown
+    - required_resolution
+    - log_required_resolution
+    # --- object identity (non-geometric) ---
+    - current_resolution
+    - n_available_resolutions
+    - max_available_resolution
+    - has_variants
+    - resolution_ratio
+    # --- object category one-hots ---
+    - cat_bld
+    - cat_plz
+    - cat_prp
+    - cat_rod
+    - cat_shw
+    - cat_wal
+
+# Columns that must never appear in the feature matrix. Kept as documentation and
+# asserted by training/tests/test_features.py. The enforcement mechanism is the
+# allow-list above, not this list.
+forbidden:
+  - object_id
+  - trajectory_id
+  - sample_index
+  - timestamp
+  - session_time
+  - physics_tick
+  - cam_position
+  - cam_quaternion
+  - cam_direction
+  - position
+  - world_bounds
+  - split
+  - any field ending in _in_0_5s or _in_1_0s
+  - resolution_eligible
+  - resolution_variants
+  - variant_texture_ids
+
+targets:
+  frustum: "frustum_visible_in_{h}s"
+  occlusion: "occlusion_visible_in_{h}s"
+  resolution: "frustum_required_resolution_{h}s"
+  resolution_fallback: "required_resolution_{h}s"
+
+paths:
+  object_index: dataset/manifests/object_index.json
+  texture_index: dataset/manifests/texture_index.json
+  phase2_5_split: dataset/manifests/runs/run_full_p25/splits.json
+  # Authoritative movement type per trajectory. The `trajectory_kind` column in the
+  # processed samples is the trajectory-id suffix for three trajectories and is not
+  # the declared kind; see docs/known-issues.md.
+  trajectory_index: dataset/trajectories/full/index.json
+  # Fixed experimental split v1 (Phase 3a.1). Separate from the Phase 2.5 manifest,
+  # which is never modified.
+  experimental_split_v1: dataset/manifests/experimental_split_v1.json
+
+splits:
+  phase2_5: dataset/manifests/runs/run_full_p25/splits.json
+  # No approved experimental split manifest was provided in this repository. See
+  # docs/phase-3a-report.md (Step 0). The grouped leave-trajectory-out folds below
+  # are generated deterministically and act as the experimental evaluation.
+  experimental: null
+  folds: 7
+  fold_size: 2
+  group_seed: 20261105
+  # Optional test-only dataset from a second environment seed. Logged and skipped
+  # when absent.
+  second_seed_dataset: dataset/processed/run_second_seed
+
+evaluation:
+  recall_at_k: [5, 10, 20]
+  pr_auc_thresholds: 4096
+
+# Phase 3a.1 trajectory audit. All thresholds live here so the report can cite them.
+audit:
+  # A sample is "snapped" if the shortest-arc yaw change from the previous sample
+  # exceeds this, or if the position jumps further than the position threshold.
+  # These are physical-plausibility bounds, not statistics: at 0.1 s sampling,
+  # 45 deg/sample is 450 deg/s and 2 m/sample is 20 m/s.
+  yaw_threshold_deg_per_sample: 45.0
+  position_threshold_m_per_sample: 2.0
+  # Radius, in samples, of the window in which a newly-visible event counts as
+  # snap-affected. 10 samples = 1.0 s either side at 10 Hz.
+  snap_window_samples: 10
+  # Error-analysis cause thresholds (Task C), applied in the documented precedence
+  # order.
+  low_angular_speed_deg_s: 5.0
+  turn_onset_accel_deg_s2: 50.0
+  distance_bins_m: [0.0, 5.0, 10.0, 15.0, 20.0, 25.0]
+
+baselines:
+  # Nothing to tune for reactive: it is the current visibility bit.
+  reactive: {}
+
+  # The coverage -> resolution map is the same function the labeller uses. It is
+  # verified against the recorded required_resolution values rather than trusted.
+  coverage_resolution: {}
+
+  predictive:
+    # Hyper-parameters are searched on VALIDATION folds only. The grid is logged
+    # in full to training/experiments/phase3a/tuning.json.
+    #
+    # `integrate_steps` discretises the horizon into forward offsets at which the
+    # frustum test is evaluated. 10 steps over 1.0 s lands exactly on the 0.1 s
+    # samples the labels are built from, so it is the finest useful setting. 0 is
+    # deliberately absent: it would mean "no extrapolation", which is the reactive
+    # baseline.
+    grid:
+      damping: [0.0, 0.25, 0.5, 0.75, 1.0]
+      angular_damping: [0.0, 0.5, 1.0]
+      integrate_steps: [1, 2, 3, 5, 10]
+    # Decision threshold on the margin, in degrees. Negative values tolerate the
+    # object centre being just outside the frustum at the tested offsets, which
+    # stands in for the object's angular size.
+    margin_thresholds_deg: [-20.0, -10.0, -5.0, 0.0, 5.0, 10.0]
+    # Selection metric on validation: PR-AUC on the primary subset (rows not
+    # currently visible), averaged over folds and horizons.
+    selection_metric: pr_auc_primary
+    occlusion_variants: true
