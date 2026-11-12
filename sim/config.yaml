@@ -1,0 +1,57 @@
+# Phase 4a simulator configuration.
+#
+# The sweep grid below was declared BEFORE any sweep was run and has not been
+# changed since. That matters: the grid is the experiment, so editing it after
+# seeing results would turn a comparison into a search.
+
+version: 1
+
+paths:
+  # Frozen per-row scores from training/save_oof_scores.py. Every model score comes
+  # from a fold that held that row's trajectory out.
+  oof_scores: training/experiments/phase4a/oof_scores.npz
+  dataset: dataset/processed/run_full_p25
+  object_index: dataset/manifests/object_index.json
+  texture_index: dataset/manifests/texture_index.json
+  # Phase 3a.1 evaluation sidecar. Used ONLY to exclude snap-affected steps from the
+  # scored deficit; it never reaches a policy.
+  sidecar: training/experiments/phase3a1/eval_flags.csv
+  results: sim/results
+
+# Fixed, per the brief: 200 MB/s and a fixed latency. Not swept.
+bandwidth_mb_s: 200.0
+sample_interval_seconds: 0.1
+
+# The budget percentages are taken from each trajectory's peak working set: the
+# largest total size of distinct candidate objects visible in any 2 s window
+# (20 samples at 10 Hz). See sim/scene.py:peak_working_set.
+working_set_window_seconds: 2.0
+
+# Steps within +/- this many samples of a yaw snap are excluded from the scored
+# deficit. The simulation still runs through them.
+snap_window_samples: 10
+
+sweep:
+  # 3 x 3 x 2 = 18 configurations.
+  budget_fraction_of_peak_working_set: [0.10, 0.25, 0.50]
+  size_multiplier: [1, 4, 16]
+  latency_seconds: [0.1, 0.5]
+
+policies:
+  - reactive_frustum
+  - reactive_visible
+  - heuristic_frustum
+  - heuristic_occ
+  - mlp_b
+  - gbdt_c
+  - oracle
+
+reporting:
+  # The engine baseline the oracle gap is measured from. reactive_frustum is what a
+  # streaming system does with no prediction at all.
+  gap_baseline: reactive_frustum
+  # Two settings shown per-trajectory: a mid-budget case and a tight, heavy,
+  # high-latency case where prediction should matter most.
+  representative_configs:
+    - {size_multiplier: 4, latency_seconds: 0.1, budget_fraction: 0.25}
+    - {size_multiplier: 16, latency_seconds: 0.5, budget_fraction: 0.10}
