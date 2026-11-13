@@ -1,0 +1,75 @@
+# Phase 4b+ simulator configuration.
+#
+# Declared BEFORE the sweep was run and not changed afterwards. Phase 4a
+# (sim/config.yaml) and Phase 4b (sim/config_4b.yaml) are untouched, and this file
+# writes to sim/results_4bplus/ so neither of their results moves.
+#
+# What is different from 4b:
+#
+#  * The transport axis is **load time**, not bandwidth. Phase 4b swept size_multiplier
+#    and bandwidth as if they were independent, and they are not: the model depends on
+#    them only through their ratio, so (size x k, bandwidth x k) was the same cell
+#    twice. `load_time_scale` is that ratio directly - it multiplies bytes/bandwidth,
+#    so 1/200 MB/s and 4/50 MB/s are both scale 4, and every cell is distinct.
+#  * Latency is swept finely (7 points, 0.1-1.5 s) so the crossover where prediction
+#    starts to help can be located rather than bracketed.
+#  * Two new baselines and a threshold curve, so the evidence is about the regime and
+#    about the cost of predicting, not just about who wins.
+#
+# 3 budgets x 1 size x 7 latencies x 4 load-time scales = 84 configurations.
+
+version: 1
+report_style: regime_4bplus
+
+paths:
+  oof_scores: training/experiments/phase4a/oof_scores.npz
+  dataset: dataset/processed/run_full_p25
+  object_index: dataset/manifests/object_index.json
+  texture_index: dataset/manifests/texture_index.json
+  sidecar: training/experiments/phase3a1/eval_flags.csv
+  # The trajectory split. The tau recommendation is made on the validation
+  # trajectories only, read from here rather than hard-coded.
+  split: dataset/manifests/experimental_split_v1.json
+  results: sim/results_4bplus
+
+# The bandwidth every load_time_scale is measured against. Scale s means the effective
+# bandwidth is nominal / s, i.e. loads take s times as long.
+nominal_bandwidth_mb_s: 200.0
+sample_interval_seconds: 0.1
+working_set_window_seconds: 2.0
+snap_window_samples: 10
+matched_margin_seconds: 0.2
+
+# reactive_visible_lag reads the occlusion state this far in the past. 0.2 s = 2
+# samples, i.e. a two-frame-stale occlusion buffer.
+reactive_lag_seconds: 0.2
+
+sweep:
+  budget_fraction_of_peak_working_set: [1.0, 1.5, 3.0]
+  size_multiplier: [1]
+  latency_seconds: [0.1, 0.2, 0.3, 0.5, 0.75, 1.0, 1.5]
+  load_time_scale: [0.25, 1, 4, 16]
+
+# Policies that are not threshold variants. oracle_matched is a reference only.
+policies:
+  - reactive_frustum
+  - reactive_visible
+  - reactive_visible_lag
+  - oracle_matched
+
+# Expands to heuristic_occ_tau0 ... mlp_b_tau0.5. tau = 0 reproduces the Phase 4b
+# policies exactly, which is what the overlap test checks.
+prefetch_thresholds:
+  bases: [heuristic_occ, mlp_b]
+  taus: [0.0, 0.1, 0.3, 0.5]
+
+reporting:
+  # Read from paths.split at run time; listed here only for the manifest.
+  split_id: experimental_split_v1
+  prediction_relevant_gap: 0.02
+  help_min_reduction: 0.01
+  bootstrap_resamples: 1000
+  bootstrap_seed: 20260501
+  representative_configs:
+    - {budget_fraction: 1.5, load_time_scale: 4, latency_seconds: 1.0}
+    - {budget_fraction: 1.5, load_time_scale: 1, latency_seconds: 0.1}
