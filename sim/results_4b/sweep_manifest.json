@@ -1,0 +1,55 @@
+{
+  "config": "sim/config_4b.yaml",
+  "runs": 432,
+  "rows": 113400,
+  "budget_fractions": [
+    1.0,
+    1.5,
+    3.0
+  ],
+  "size_multipliers": [
+    1.0,
+    4.0,
+    16.0
+  ],
+  "latencies": [
+    0.1,
+    0.5,
+    1.0
+  ],
+  "bandwidths_mb_s": [
+    50.0,
+    200.0
+  ],
+  "policies": [
+    "reactive_frustum",
+    "reactive_visible",
+    "heuristic_frustum",
+    "heuristic_occ",
+    "mlp_b",
+    "gbdt_c",
+    "oracle_1s",
+    "oracle_matched"
+  ],
+  "ideal_budget": true,
+  "ideal_budget_policies": [
+    "reactive_visible",
+    "oracle_matched"
+  ],
+  "working_set_window_samples": 20,
+  "csv_fields": [
+    "budget_fraction",
+    "budget_bytes",
+    "size_multiplier",
+    "latency_seconds",
+    "bandwidth_mb_s",
+    "policy",
+    "trajectory",
+    "metric",
+    "value",
+    "budget_kind"
+  ],
+  "grid_declared_before_running": true,
+  "deterministic": true,
+  "seconds": 54.45505099100046
+}

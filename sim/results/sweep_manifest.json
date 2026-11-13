@@ -1,0 +1,33 @@
+{
+  "config": "sim/config.yaml",
+  "runs": 126,
+  "rows": 26460,
+  "budget_fractions": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "size_multipliers": [
+    1.0,
+    4.0,
+    16.0
+  ],
+  "latencies": [
+    0.1,
+    0.5
+  ],
+  "policies": [
+    "reactive_frustum",
+    "reactive_visible",
+    "heuristic_frustum",
+    "heuristic_occ",
+    "mlp_b",
+    "gbdt_c",
+    "oracle"
+  ],
+  "bandwidth_mb_s": 200.0,
+  "working_set_window_samples": 20,
+  "grid_declared_before_running": true,
+  "deterministic": true,
+  "seconds": 17.063199781998264
+}
