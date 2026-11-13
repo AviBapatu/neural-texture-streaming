@@ -1,0 +1,64 @@
+# Phase 4b simulator configuration.
+#
+# Declared BEFORE the sweep was run and not changed afterwards. Phase 4a's
+# sim/config.yaml is untouched: this file is the 4b experiment, and its results go to
+# sim/results_4b/ so the 4a results stay exactly as published.
+#
+# Rationale for the grid: Phase 4a swept capacity (budgets of 10/25/50% of the working
+# set) at a single fast load speed (200 MB/s, 0.1-0.5 s latency). That is the regime
+# where prediction has the least room to help - if the texture is loaded before it is
+# needed anyway, knowing the future buys nothing. Phase 4b inverts the regime: memory
+# is sufficient (100/150/300% of peak working set, so residency is not the binding
+# constraint) while loads are made slow (down to 50 MB/s and up to 1.0 s of latency).
+# That is where a predictor must earn its keep, because the only way to have a texture
+# ready is to have asked for it early.
+
+version: 1
+report_style: regime
+ideal_budget: true
+
+paths:
+  oof_scores: training/experiments/phase4a/oof_scores.npz
+  dataset: dataset/processed/run_full_p25
+  object_index: dataset/manifests/object_index.json
+  texture_index: dataset/manifests/texture_index.json
+  sidecar: training/experiments/phase3a1/eval_flags.csv
+  results: sim/results_4b
+
+# Scalar default, mirroring 4a. The sweep below overrides it per configuration.
+bandwidth_mb_s: 200.0
+sample_interval_seconds: 0.1
+working_set_window_seconds: 2.0
+snap_window_samples: 10
+
+# The safety margin in oracle_matched's horizon: H = latency + bytes/bandwidth + margin.
+matched_margin_seconds: 0.2
+
+sweep:
+  # 3 budgets x 3 size multipliers x 3 latencies x 2 bandwidths = 54 configurations.
+  budget_fraction_of_peak_working_set: [1.0, 1.5, 3.0]
+  size_multiplier: [1, 4, 16]
+  latency_seconds: [0.1, 0.5, 1.0]
+  bandwidth_mb_s: [50.0, 200.0]
+
+policies:
+  - reactive_frustum
+  - reactive_visible
+  - heuristic_frustum
+  - heuristic_occ
+  - mlp_b
+  - gbdt_c
+  - oracle_1s
+  - oracle_matched
+
+reporting:
+  gap_baseline: reactive_visible
+  # Pre-declared decision rules. Applied mechanically in the summary; they were
+  # written down before the sweep ran.
+  prediction_relevant_gap: 0.02
+  help_recovery_fraction: 0.25
+  help_min_trajectories: 10
+  # Two representative cells, one prediction-relevant and one not.
+  representative_configs:
+    - {budget_fraction: 1.5, size_multiplier: 4, latency_seconds: 1.0, bandwidth_mb_s: 50.0}
+    - {budget_fraction: 1.0, size_multiplier: 4, latency_seconds: 0.1, bandwidth_mb_s: 200.0}
