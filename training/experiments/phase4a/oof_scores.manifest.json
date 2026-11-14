@@ -1,0 +1,223 @@
+{
+  "rows": 188469,
+  "trajectories": [
+    "t01_walk_straight",
+    "t02_sprint_straight",
+    "t03_walk_corner",
+    "t04_sprint_corner",
+    "t05_turn_left_right",
+    "t06_look_around",
+    "t07_stop_start",
+    "t08_forward_reverse",
+    "t09_approach_building",
+    "t10_street_then_plaza",
+    "t11_slow_walk_down",
+    "t12_sprint_weave",
+    "t13_approach_prop",
+    "t14_plaza_look"
+  ],
+  "outputs": [
+    "frustum_0_5",
+    "frustum_1_0",
+    "occlusion_0_5",
+    "occlusion_1_0"
+  ],
+  "seed": 1,
+  "variants": {
+    "mlp_b": "MLP on features_v1 + frozen heuristic score",
+    "gbdt_c": "HistGradientBoosting on the features of A (model-class check)"
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "train": [
+        "t09_approach_building",
+        "t06_look_around",
+        "t05_turn_left_right",
+        "t07_stop_start",
+        "t02_sprint_straight",
+        "t10_street_then_plaza",
+        "t14_plaza_look",
+        "t11_slow_walk_down",
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "validation": [
+        "t08_forward_reverse",
+        "t04_sprint_corner"
+      ],
+      "test": [
+        "t12_sprint_weave",
+        "t01_walk_straight"
+      ]
+    },
+    {
+      "fold": 1,
+      "train": [
+        "t12_sprint_weave",
+        "t01_walk_straight",
+        "t05_turn_left_right",
+        "t07_stop_start",
+        "t02_sprint_straight",
+        "t10_street_then_plaza",
+        "t14_plaza_look",
+        "t11_slow_walk_down",
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "validation": [
+        "t09_approach_building",
+        "t06_look_around"
+      ],
+      "test": [
+        "t08_forward_reverse",
+        "t04_sprint_corner"
+      ]
+    },
+    {
+      "fold": 2,
+      "train": [
+        "t12_sprint_weave",
+        "t01_walk_straight",
+        "t08_forward_reverse",
+        "t04_sprint_corner",
+        "t02_sprint_straight",
+        "t10_street_then_plaza",
+        "t14_plaza_look",
+        "t11_slow_walk_down",
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "validation": [
+        "t05_turn_left_right",
+        "t07_stop_start"
+      ],
+      "test": [
+        "t09_approach_building",
+        "t06_look_around"
+      ]
+    },
+    {
+      "fold": 3,
+      "train": [
+        "t12_sprint_weave",
+        "t01_walk_straight",
+        "t08_forward_reverse",
+        "t04_sprint_corner",
+        "t09_approach_building",
+        "t06_look_around",
+        "t14_plaza_look",
+        "t11_slow_walk_down",
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "validation": [
+        "t02_sprint_straight",
+        "t10_street_then_plaza"
+      ],
+      "test": [
+        "t05_turn_left_right",
+        "t07_stop_start"
+      ]
+    },
+    {
+      "fold": 4,
+      "train": [
+        "t12_sprint_weave",
+        "t01_walk_straight",
+        "t08_forward_reverse",
+        "t04_sprint_corner",
+        "t09_approach_building",
+        "t06_look_around",
+        "t05_turn_left_right",
+        "t07_stop_start",
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "validation": [
+        "t14_plaza_look",
+        "t11_slow_walk_down"
+      ],
+      "test": [
+        "t02_sprint_straight",
+        "t10_street_then_plaza"
+      ]
+    },
+    {
+      "fold": 5,
+      "train": [
+        "t12_sprint_weave",
+        "t01_walk_straight",
+        "t08_forward_reverse",
+        "t04_sprint_corner",
+        "t09_approach_building",
+        "t06_look_around",
+        "t05_turn_left_right",
+        "t07_stop_start",
+        "t02_sprint_straight",
+        "t10_street_then_plaza"
+      ],
+      "validation": [
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "test": [
+        "t14_plaza_look",
+        "t11_slow_walk_down"
+      ]
+    },
+    {
+      "fold": 6,
+      "train": [
+        "t08_forward_reverse",
+        "t04_sprint_corner",
+        "t09_approach_building",
+        "t06_look_around",
+        "t05_turn_left_right",
+        "t07_stop_start",
+        "t02_sprint_straight",
+        "t10_street_then_plaza",
+        "t14_plaza_look",
+        "t11_slow_walk_down"
+      ],
+      "validation": [
+        "t12_sprint_weave",
+        "t01_walk_straight"
+      ],
+      "test": [
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ]
+    }
+  ],
+  "fold_seed": 20261105,
+  "key_columns": [
+    "trajectory",
+    "sample_index",
+    "object_id"
+  ],
+  "heuristic": {
+    "frustum": {
+      "parameters": {
+        "damping": 0.0,
+        "angular_damping": 0.0,
+        "integrate_steps": 1,
+        "margin_threshold_deg": 0.0,
+        "occlusion_penalty_deg": 0.0
+      },
+      "threshold_deg": -5.0
+    },
+    "occlusion": {
+      "parameters": {
+        "damping": 1.0,
+        "angular_damping": 0.0,
+        "integrate_steps": 2,
+        "margin_threshold_deg": 0.0,
+        "occlusion_penalty_deg": 30.0
+      },
+      "threshold_deg": 10.0
+    }
+  },
+  "config": "training/configs/model_v1.yaml",
+  "note": "each row's model score comes from the fold that held its trajectory out; the fold assignment is recorded here so that is checkable"
+}
