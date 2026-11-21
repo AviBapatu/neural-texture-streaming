@@ -1,0 +1,84 @@
+{
+  "phase": "5sel",
+  "loss": "listwise",
+  "seed": 1,
+  "hidden": [
+    128,
+    64
+  ],
+  "dropout": 0.1,
+  "best_epoch": 34,
+  "best_val_ndcg": 0.5603974160366876,
+  "parameters": 16769,
+  "trained_on": [
+    {
+      "trajectory_id": "t02_sprint_straight",
+      "kind": "sprint_straight",
+      "duration_seconds": 16.0,
+      "snap_contaminated": false
+    },
+    {
+      "trajectory_id": "t09_approach_building",
+      "kind": "approach_building",
+      "duration_seconds": 18.0,
+      "snap_contaminated": true
+    },
+    {
+      "trajectory_id": "t10_street_then_plaza",
+      "kind": "street_then_plaza",
+      "duration_seconds": 28.0,
+      "snap_contaminated": false
+    },
+    {
+      "trajectory_id": "t11_slow_walk_down",
+      "kind": "walk_straight",
+      "duration_seconds": 18.0,
+      "snap_contaminated": false
+    },
+    {
+      "trajectory_id": "t12_sprint_weave",
+      "kind": "sprint_corner",
+      "duration_seconds": 20.0,
+      "snap_contaminated": false
+    },
+    {
+      "trajectory_id": "t13_approach_prop",
+      "kind": "approach_prop",
+      "duration_seconds": 16.0,
+      "snap_contaminated": true
+    },
+    {
+      "trajectory_id": "t14_plaza_look",
+      "kind": "look_around",
+      "duration_seconds": 22.0,
+      "snap_contaminated": true
+    }
+  ],
+  "early_stopped_on": [
+    {
+      "trajectory_id": "t05_turn_left_right",
+      "kind": "turn_left_right",
+      "duration_seconds": 24.0,
+      "snap_contaminated": false
+    },
+    {
+      "trajectory_id": "t07_stop_start",
+      "kind": "stop_start",
+      "duration_seconds": 22.0,
+      "snap_contaminated": false
+    },
+    {
+      "trajectory_id": "t08_forward_reverse",
+      "kind": "forward_reverse",
+      "duration_seconds": 20.0,
+      "snap_contaminated": false
+    }
+  ],
+  "target": "occlusion_max_coverage_1_0s / full-texture bytes at 1x",
+  "export": {
+    "header": "/home/avi/Dev/neural-texture-streaming/training/experiments/phase5rank/phase5rank_p3_listwise_seed1.json",
+    "weights": "/home/avi/Dev/neural-texture-streaming/training/experiments/phase5rank/phase5rank_p3_listwise_seed1.npz",
+    "dense_layers": 3,
+    "parameters": 16769
+  }
+}
