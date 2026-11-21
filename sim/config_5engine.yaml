@@ -1,0 +1,51 @@
+# Phase 5 engine-parity simulator configuration (NEW file; existing configs untouched).
+#
+# This restricts the simulator to the 53 objects the engine streams - the objects
+# that use one of the 7 texture identities with generated variants (plz 4, wal 42,
+# shw 7). The filtered object index and score bundle are produced by
+# tools/export_scores_for_godot.py; peak working set and budget are therefore
+# computed over those 53 objects only. Every Phase 5 parity number and every
+# reported deficit is stated with this scope.
+#
+# It reuses the Phase 4a model exactly (same engine, same metrics) so the only
+# difference from training/experiments/phase4a/oof_scores.npz is the object scope.
+#
+# Run: python sim/run_sweep.py --config sim/config_5engine.yaml
+
+version: 1
+
+paths:
+  oof_scores: dataset/streaming/runs/phase5_engine/oof_scores_53.npz
+  dataset: dataset/processed/run_full_p25
+  object_index: dataset/streaming/runs/phase5_engine/object_index_53.json
+  texture_index: dataset/manifests/texture_index.json
+  sidecar: training/experiments/phase3a1/eval_flags.csv
+  results: dataset/streaming/runs/phase5_engine/sim_results
+
+bandwidth_mb_s: 200.0
+sample_interval_seconds: 0.1
+working_set_window_seconds: 2.0
+snap_window_samples: 10
+
+sweep:
+  # The parity cell: budget 100% of peak working set, latency 0.5 s, 200 MB/s.
+  budget_fraction_of_peak_working_set: [1.0]
+  size_multiplier: [1]
+  latency_seconds: [0.5]
+  bandwidth_mb_s: [200.0]
+
+policies:
+  # The full Phase 4a set is required by run_sweep's summary builder; the three
+  # compared against the engine are reactive_visible, heuristic_occ and mlp_b.
+  - reactive_frustum
+  - reactive_visible
+  - heuristic_frustum
+  - heuristic_occ
+  - mlp_b
+  - gbdt_c
+  - oracle
+
+reporting:
+  gap_baseline: reactive_visible
+  representative_configs:
+    - {size_multiplier: 1, latency_seconds: 0.5, budget_fraction: 1.0}

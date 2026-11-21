@@ -1,0 +1,474 @@
+{
+  "cells": [
+    {
+      "budget_fraction": 1.0,
+      "load_time_scale": 0.25,
+      "latency_seconds": 0.5,
+      "bandwidth_mb_s": 800.0
+    },
+    {
+      "budget_fraction": 1.0,
+      "load_time_scale": 0.25,
+      "latency_seconds": 0.75,
+      "bandwidth_mb_s": 800.0
+    },
+    {
+      "budget_fraction": 1.0,
+      "load_time_scale": 0.25,
+      "latency_seconds": 1.0,
+      "bandwidth_mb_s": 800.0
+    },
+    {
+      "budget_fraction": 1.0,
+      "load_time_scale": 0.25,
+      "latency_seconds": 1.5,
+      "bandwidth_mb_s": 800.0
+    },
+    {
+      "budget_fraction": 1.0,
+      "load_time_scale": 1.0,
+      "latency_seconds": 0.75,
+      "bandwidth_mb_s": 200.0
+    },
+    {
+      "budget_fraction": 1.0,
+      "load_time_scale": 1.0,
+      "latency_seconds": 1.0,
+      "bandwidth_mb_s": 200.0
+    },
+    {
+      "budget_fraction": 1.0,
+      "load_time_scale": 1.0,
+      "latency_seconds": 1.5,
+      "bandwidth_mb_s": 200.0
+    },
+    {
+      "budget_fraction": 1.0,
+      "load_time_scale": 4.0,
+      "latency_seconds": 0.75,
+      "bandwidth_mb_s": 50.0
+    },
+    {
+      "budget_fraction": 1.0,
+      "load_time_scale": 4.0,
+      "latency_seconds": 1.0,
+      "bandwidth_mb_s": 50.0
+    },
+    {
+      "budget_fraction": 1.0,
+      "load_time_scale": 4.0,
+      "latency_seconds": 1.5,
+      "bandwidth_mb_s": 50.0
+    },
+    {
+      "budget_fraction": 1.5,
+      "load_time_scale": 4.0,
+      "latency_seconds": 1.0,
+      "bandwidth_mb_s": 50.0
+    },
+    {
+      "budget_fraction": 1.5,
+      "load_time_scale": 4.0,
+      "latency_seconds": 1.5,
+      "bandwidth_mb_s": 50.0
+    }
+  ],
+  "policies": [
+    "reactive_visible",
+    "oracle_matched",
+    "mlp_b_tau0",
+    "mlp_b_tau0.1",
+    "mlp_b_tau0.3",
+    "mlp_b_tau0.5",
+    "heuristic_occ_tau0",
+    "heuristic_occ_tau0.1",
+    "heuristic_occ_tau0.3",
+    "heuristic_occ_tau0.5",
+    "mlp_b_tau0@f0.1",
+    "mlp_b_tau0@f0.25",
+    "mlp_b_tau0@f0.5",
+    "mlp_b_tau0@f1",
+    "mlp_b_tau0.5@f0.1",
+    "mlp_b_tau0.5@f0.25",
+    "mlp_b_tau0.5@f0.5",
+    "mlp_b_tau0.5@f1",
+    "heuristic_occ_tau0@f0.1",
+    "heuristic_occ_tau0@f0.25",
+    "heuristic_occ_tau0@f0.5",
+    "heuristic_occ_tau0@f1",
+    "heuristic_occ_tau0.5@f0.1",
+    "heuristic_occ_tau0.5@f0.25",
+    "heuristic_occ_tau0.5@f0.5",
+    "heuristic_occ_tau0.5@f1",
+    "p3",
+    "p3@f0.1",
+    "p3@f0.25",
+    "p3@f0.5",
+    "p3@f1"
+  ],
+  "chosen_f": 1.0,
+  "p3_loss": "listwise",
+  "p3_ndcg": {
+    "listwise": 0.5905820598865587,
+    "hinge": 0.5234984238922389
+  },
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "losses": [
+    "listwise",
+    "hinge"
+  ],
+  "f_report": [
+    {
+      "f": 0.1,
+      "deficit": 0.11166370055608392,
+      "bytes": 55325454528.00009,
+      "bytes_ratio": 3.5237621344738828,
+      "qualifies": false
+    },
+    {
+      "f": 0.25,
+      "deficit": 0.10682189294035438,
+      "bytes": 67436969664.00021,
+      "bytes_ratio": 4.295162908158358,
+      "qualifies": false
+    },
+    {
+      "f": 0.5,
+      "deficit": 0.09190229648855312,
+      "bytes": 81921138602.66678,
+      "bytes_ratio": 5.217681602145145,
+      "qualifies": false
+    },
+    {
+      "f": 1.0,
+      "deficit": 0.08826602903765175,
+      "bytes": 83913879381.33345,
+      "bytes_ratio": 5.3446022855736715,
+      "qualifies": false
+    }
+  ],
+  "success": [
+    {
+      "policy": "mlp_b_tau0@f0.1",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "mlp_b_tau0@f0.25",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "mlp_b_tau0@f0.5",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "mlp_b_tau0@f1",
+      "cells": 3,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "mlp_b_tau0.5@f0.1",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "mlp_b_tau0.5@f0.25",
+      "cells": 4,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "mlp_b_tau0.5@f0.5",
+      "cells": 7,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "mlp_b_tau0.5@f1",
+      "cells": 12,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "heuristic_occ_tau0@f0.1",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "heuristic_occ_tau0@f0.25",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "heuristic_occ_tau0@f0.5",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "heuristic_occ_tau0@f1",
+      "cells": 3,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "heuristic_occ_tau0.5@f0.1",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "heuristic_occ_tau0.5@f0.25",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "heuristic_occ_tau0.5@f0.5",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "heuristic_occ_tau0.5@f1",
+      "cells": 1,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "p3",
+      "cells": 1,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "p3@f0.1",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "p3@f0.25",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "p3@f0.5",
+      "cells": 0,
+      "beats_tau05": false,
+      "success": false
+    },
+    {
+      "policy": "p3@f1",
+      "cells": 3,
+      "beats_tau05": false,
+      "success": false
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "train": [
+        "t09_approach_building",
+        "t06_look_around",
+        "t05_turn_left_right",
+        "t07_stop_start",
+        "t02_sprint_straight",
+        "t10_street_then_plaza",
+        "t14_plaza_look",
+        "t11_slow_walk_down",
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "validation": [
+        "t08_forward_reverse",
+        "t04_sprint_corner"
+      ],
+      "test": [
+        "t12_sprint_weave",
+        "t01_walk_straight"
+      ]
+    },
+    {
+      "fold": 1,
+      "train": [
+        "t12_sprint_weave",
+        "t01_walk_straight",
+        "t05_turn_left_right",
+        "t07_stop_start",
+        "t02_sprint_straight",
+        "t10_street_then_plaza",
+        "t14_plaza_look",
+        "t11_slow_walk_down",
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "validation": [
+        "t09_approach_building",
+        "t06_look_around"
+      ],
+      "test": [
+        "t08_forward_reverse",
+        "t04_sprint_corner"
+      ]
+    },
+    {
+      "fold": 2,
+      "train": [
+        "t12_sprint_weave",
+        "t01_walk_straight",
+        "t08_forward_reverse",
+        "t04_sprint_corner",
+        "t02_sprint_straight",
+        "t10_street_then_plaza",
+        "t14_plaza_look",
+        "t11_slow_walk_down",
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "validation": [
+        "t05_turn_left_right",
+        "t07_stop_start"
+      ],
+      "test": [
+        "t09_approach_building",
+        "t06_look_around"
+      ]
+    },
+    {
+      "fold": 3,
+      "train": [
+        "t12_sprint_weave",
+        "t01_walk_straight",
+        "t08_forward_reverse",
+        "t04_sprint_corner",
+        "t09_approach_building",
+        "t06_look_around",
+        "t14_plaza_look",
+        "t11_slow_walk_down",
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "validation": [
+        "t02_sprint_straight",
+        "t10_street_then_plaza"
+      ],
+      "test": [
+        "t05_turn_left_right",
+        "t07_stop_start"
+      ]
+    },
+    {
+      "fold": 4,
+      "train": [
+        "t12_sprint_weave",
+        "t01_walk_straight",
+        "t08_forward_reverse",
+        "t04_sprint_corner",
+        "t09_approach_building",
+        "t06_look_around",
+        "t05_turn_left_right",
+        "t07_stop_start",
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "validation": [
+        "t14_plaza_look",
+        "t11_slow_walk_down"
+      ],
+      "test": [
+        "t02_sprint_straight",
+        "t10_street_then_plaza"
+      ]
+    },
+    {
+      "fold": 5,
+      "train": [
+        "t12_sprint_weave",
+        "t01_walk_straight",
+        "t08_forward_reverse",
+        "t04_sprint_corner",
+        "t09_approach_building",
+        "t06_look_around",
+        "t05_turn_left_right",
+        "t07_stop_start",
+        "t02_sprint_straight",
+        "t10_street_then_plaza"
+      ],
+      "validation": [
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ],
+      "test": [
+        "t14_plaza_look",
+        "t11_slow_walk_down"
+      ]
+    },
+    {
+      "fold": 6,
+      "train": [
+        "t08_forward_reverse",
+        "t04_sprint_corner",
+        "t09_approach_building",
+        "t06_look_around",
+        "t05_turn_left_right",
+        "t07_stop_start",
+        "t02_sprint_straight",
+        "t10_street_then_plaza",
+        "t14_plaza_look",
+        "t11_slow_walk_down"
+      ],
+      "validation": [
+        "t12_sprint_weave",
+        "t01_walk_straight"
+      ],
+      "test": [
+        "t13_approach_prop",
+        "t03_walk_corner"
+      ]
+    }
+  ],
+  "parameters": 16769,
+  "all_trajectories": [
+    "t01_walk_straight",
+    "t02_sprint_straight",
+    "t03_walk_corner",
+    "t04_sprint_corner",
+    "t05_turn_left_right",
+    "t06_look_around",
+    "t07_stop_start",
+    "t08_forward_reverse",
+    "t09_approach_building",
+    "t10_street_then_plaza",
+    "t11_slow_walk_down",
+    "t12_sprint_weave",
+    "t13_approach_prop",
+    "t14_plaza_look"
+  ],
+  "test_trajectories": [
+    "t01_walk_straight",
+    "t03_walk_corner",
+    "t04_sprint_corner",
+    "t06_look_around"
+  ],
+  "validation_trajectories": [
+    "t05_turn_left_right",
+    "t07_stop_start",
+    "t08_forward_reverse"
+  ],
+  "grid_declared_before_running": true
+}
